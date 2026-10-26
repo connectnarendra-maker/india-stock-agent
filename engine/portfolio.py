@@ -22,6 +22,10 @@ RF = float(sys.argv[4]) / 100 if len(sys.argv) > 4 else 0.055
 TD = 252
 
 
+def _np(o):
+    return o.item() if hasattr(o, "item") else str(o)
+
+
 def xirr(flows):
     if len(flows) < 2 or not any(a < 0 for _, a in flows) or not any(a > 0 for _, a in flows):
         return None
@@ -178,8 +182,8 @@ def main():
         "method_note": "Risk metrics apply current weights to the last 252 trading days. "
                        "Nifty 500 sector weights are approximated from full market caps (the index uses free-float).",
     }
-    json.dump(out, open(OUT, "w"), indent=1)
-    print(json.dumps(out["summary"], indent=1))
+    json.dump(out, open(OUT, "w"), indent=1, default=_np)
+    print(json.dumps(out["summary"], indent=1, default=_np))
 
 
 if __name__ == "__main__":

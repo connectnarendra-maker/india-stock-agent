@@ -1,0 +1,1 @@
+# Extra NSE symbols to track outside the Nifty 500 (one per line, ticker only)

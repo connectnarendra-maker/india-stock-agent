@@ -30,6 +30,10 @@ LABELS = {"momentum": "Momentum", "trend": "Trend", "quality": "Quality", "value
 MIN_TRADED_VALUE_CR = 2.0  # 60-day median daily traded value floor, in ₹ crore
 
 
+def _np(o):
+    return o.item() if hasattr(o, "item") else str(o)
+
+
 def winsor(s, lo=0.025, hi=0.975):
     if s.notna().sum() < 10:
         return s
@@ -98,7 +102,7 @@ def main():
     P.columns = syms
     V = vol.reindex(columns=[f"{s}.NS" for s in syms])
     V.columns = syms
-    F = pd.DataFrame({s: fund.get(f"{s}.NS") or {} for s in syms}).T.apply(pd.to_numeric, errors="ignore")
+    F = pd.DataFrame({s: fund.get(f"{s}.NS") or {} for s in syms}).T.reindex(syms)
     sector = uni.loc[syms, "industry"].fillna("Other")
 
     rets = P.pct_change(fill_method=None)
@@ -209,8 +213,8 @@ def main():
                                                    key=lambda r: r["chg_pct"])[:10]],
         "weights": WEIGHTS, "data_meta": meta,
     }
-    json.dump(rows, open(f"{D}/scores.json", "w"), separators=(",", ":"))
-    json.dump(market, open(f"{D}/market.json", "w"), indent=1)
+    json.dump(rows, open(f"{D}/scores.json", "w"), separators=(",", ":"), default=_np)
+    json.dump(market, open(f"{D}/market.json", "w"), indent=1, default=_np)
     print(f"Scored {len(rows)} stocks. Top 5:", [r["symbol"] for r in rows[:5]])
 
 

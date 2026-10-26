@@ -1,0 +1,57 @@
+name: Market data feed
+
+# Hourly, Mon-Fri, 06:15-17:15 IST (00:45-11:45 UTC).
+# GitHub may start scheduled runs a few minutes late at busy times.
+on:
+  schedule:
+    - cron: "45 0-11 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Restore previous data
+        run: |
+          mkdir -p prev
+          if git fetch --depth 1 origin data 2>/dev/null; then
+            git --work-tree=prev checkout FETCH_HEAD -- . && git reset -q
+          else
+            echo "No data branch yet (first run)."
+          fi
+
+      - name: Fetch prices, fundamentals and universe
+        run: python engine/fetch.py
+
+      - name: Score Nifty 500
+        run: python engine/score.py out signals
+
+      - name: Publish to data branch
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd out
+          git init -q -b data
+          git config user.name "market-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -qm "Market data $(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M IST')"
+          git push -q --force "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" data
