@@ -60,7 +60,8 @@ def load_universe():
             df = pd.read_csv(io.StringIO(r.text))
             df = df.rename(columns={"Company Name": "company", "Industry": "industry", "Symbol": "symbol"})
             df = df[["symbol", "company", "industry"]].dropna()
-            if len(df) >= 450:
+            df = df[~df.symbol.str.upper().str.startswith("DUMMY")]
+            if len(df) >= 450:  # sanity check on a full list
                 meta["universe_source"] = url
                 return df
         except Exception as e:

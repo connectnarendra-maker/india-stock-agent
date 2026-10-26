@@ -1,0 +1,531 @@
+<style>
+  .sa { font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+  .sa h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0 0 var(--cds-gap-xs); }
+  .sa h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0 0 var(--cds-gap-xs); }
+  .sa .lede { color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-md); font-size: var(--cds-font-size-body); }
+  .sa .tabs { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; border-bottom: 1px solid var(--color-border-line); margin-bottom: var(--cds-gap-lg); }
+  .sa .tab { background: none; border: 0; border-bottom: 2px solid transparent; padding: var(--cds-pad-sm) var(--cds-pad-md); font: inherit; color: var(--color-fg-muted); cursor: pointer; }
+  .sa .tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); }
+  .sa .page[hidden] { display: none; }
+  .sa .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-md); }
+  .sa .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-md); }
+  .sa .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+  .sa .note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: 0 0 var(--cds-gap-sm); }
+  .sa .tile .lbl { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .sa .tile .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; margin: var(--cds-gap-xs) 0; }
+  .sa .tile .sub { font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .sa .up { color: var(--color-ok); } .sa .down { color: var(--color-bad); } .sa .muted { color: var(--color-fg-muted); }
+  .sa .tbox { max-height: 34rem; overflow: auto; }
+  .sa table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .sa th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .sa th button { all: unset; cursor: pointer; }
+  .sa td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .sa td.n, .sa th.n { text-align: right; }
+  .sa tr[data-key] { cursor: pointer; }
+  .sa .controls { display: flex; gap: var(--cds-gap-sm); flex-wrap: wrap; margin-bottom: var(--cds-gap-sm); }
+  .sa input, .sa select { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); }
+  .sa .bar { height: 6px; border-radius: 3px; background: var(--cds-chart-muted); position: relative; min-width: 3rem; }
+  .sa .bar span { position: absolute; top: 0; bottom: 0; border-radius: 3px; }
+  .sa .chart { position: relative; min-height: 260px; }
+  .sa .tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; }
+  .sa .tip .d { color: var(--cds-text-secondary); }
+  .sa .sw { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px; }
+  .sa .empty { padding: var(--cds-pad-lg); text-align: center; color: var(--color-fg-muted); }
+  .sa .detail { margin-top: var(--cds-gap-md); }
+  .sa .detail[hidden] { display: none; }
+  .sa .fbars { display: grid; grid-template-columns: 8rem 1fr 3rem; gap: var(--cds-gap-xs) var(--cds-gap-sm); align-items: center; font-size: var(--cds-font-size-caption); }
+  .sa .news-item { padding: var(--cds-pad-sm) 0; border-bottom: 1px solid var(--color-border-line); }
+  .sa .news-item a { color: var(--color-fg); }
+  .sa .pill { display: inline-block; padding: 0 6px; border-radius: 999px; font-size: var(--cds-font-size-caption); border: 1px solid var(--color-border-line); margin-right: 4px; }
+  .sa .method p, .sa .method li { font-size: var(--cds-font-size-body); line-height: 1.55; }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  @media (max-width: 640px) { .sa .hide-sm { display: none; } }
+</style>
+
+<div class="sa">
+  <h1 id="top">India Stock Agent</h1>
+  <p class="lede"><span class="dash-skeleton" id="takeaway" data-source="status"></span></p>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" data-tab="overview" id="tab-overview">Market</button>
+    <button class="tab" role="tab" data-tab="rankings" id="tab-rankings">Rankings</button>
+    <button class="tab" role="tab" data-tab="portfolio" id="tab-portfolio">My portfolio</button>
+    <button class="tab" role="tab" data-tab="news" id="tab-news">News &amp; alerts</button>
+    <button class="tab" role="tab" data-tab="method" id="tab-method">How it works</button>
+  </div>
+
+  <!-- MARKET -->
+  <section class="page" id="overview">
+    <div class="tiles">
+      <div class="card tile"><div class="lbl">Nifty 50 · today</div>
+        <div class="big dash-skeleton" data-source="indices" data-field="level" data-where="index=Nifty 50">—</div>
+        <div class="sub"><span data-source="indices" data-field="chg_pct" data-where="index=Nifty 50">—</span> today · <span data-source="indices" data-field="ret_1y" data-where="index=Nifty 50">—</span> 1 yr</div></div>
+      <div class="card tile"><div class="lbl">Nifty 500 · today</div>
+        <div class="big dash-skeleton" data-source="indices" data-field="level" data-where="index=Nifty 500">—</div>
+        <div class="sub"><span data-source="indices" data-field="chg_pct" data-where="index=Nifty 500">—</span> today · <span data-source="indices" data-field="ret_1y" data-where="index=Nifty 500">—</span> 1 yr</div></div>
+      <div class="card tile"><div class="lbl">Breadth · advancers vs decliners</div>
+        <div class="big dash-skeleton"><span data-source="status" data-field="advancers" data-row="0">—</span> / <span data-source="status" data-field="decliners" data-row="0">—</span></div>
+        <div class="sub muted">of the Nifty 500 today</div></div>
+      <div class="card tile"><div class="lbl">Above 200-day average</div>
+        <div class="big dash-skeleton"><span data-source="status" data-field="above_200dma_pct" data-row="0">—</span>%</div>
+        <div class="sub muted">share of Nifty 500 in a long-term uptrend</div></div>
+    </div>
+
+    <div class="grid">
+      <div class="card" id="top-ranked">
+        <h2>Highest-scoring stocks</h2>
+        <p class="note">Top 15 by combined factor score, liquid stocks only. A score is a research signal, not a buy call.</p>
+        <div class="tbox"><table class="t-top" data-source="scores" data-row-key="symbol">
+          <thead><tr><th data-field="rank" class="n">#</th><th data-field="symbol">Stock</th><th data-field="sector" class="hide-sm">Sector</th><th data-field="percentile" class="n">Pctl</th><th data-field="strengths" class="hide-sm">Driven by</th><th data-field="chg_pct" class="n">Today</th></tr></thead>
+          <tbody></tbody></table></div>
+      </div>
+      <div class="card" id="sector-board">
+        <h2>Sectors</h2>
+        <p class="note">Median move today and over 1 month, sorted by average factor score.</p>
+        <div class="tbox"><table class="t-sec" data-source="sectors" data-row-key="sector">
+          <thead><tr><th data-field="sector">Sector</th><th data-field="chg" class="n">Today</th><th data-field="r1m" class="n">1 mo</th><th data-field="score" class="n">Avg score</th><th data-field="n" class="n hide-sm">Stocks</th></tr></thead>
+          <tbody></tbody></table></div>
+      </div>
+    </div>
+
+    <div class="card" id="flagged">
+      <h2>Unusual activity</h2>
+      <p class="note">Liquid stocks with a big move, a volume spike, or a new 52-week high or low in the latest data.</p>
+      <div class="tbox"><table class="t-flag" data-source="scores" data-row-key="symbol">
+        <thead><tr><th data-field="symbol">Stock</th><th data-field="flags">What happened</th><th data-field="chg_pct" class="n">Today</th><th data-field="percentile" class="n">Pctl</th></tr></thead>
+        <tbody></tbody></table></div>
+    </div>
+  </section>
+
+  <!-- RANKINGS -->
+  <section class="page" id="rankings" hidden>
+    <div class="card">
+      <h2>Nifty 500 rankings</h2>
+      <p class="note">Every stock scored on seven factors, each compared within its sector. Click a row to see why it scores as it does. Click a column to sort.</p>
+      <div class="controls">
+        <input type="search" class="r-q" placeholder="Search stock or company" aria-label="Search">
+        <select class="r-sec" aria-label="Sector"></select>
+        <label class="note" style="margin:0;align-self:center"><input type="checkbox" class="r-liq" checked> Liquid only</label>
+      </div>
+      <div class="tbox" style="max-height:40rem"><table class="t-rank" data-source="scores" data-row-key="symbol">
+        <thead><tr>
+          <th data-field="rank" class="n"><button data-k="rank">#</button></th>
+          <th data-field="symbol"><button data-k="symbol">Stock</button></th>
+          <th data-field="sector" class="hide-sm"><button data-k="sector">Sector</button></th>
+          <th data-field="percentile" class="n"><button data-k="percentile">Pctl</button></th>
+          <th data-field="f_momentum" class="n hide-sm"><button data-k="f_momentum">Mom</button></th>
+          <th data-field="f_quality" class="n hide-sm"><button data-k="f_quality">Qual</button></th>
+          <th data-field="f_value" class="n hide-sm"><button data-k="f_value">Val</button></th>
+          <th data-field="f_growth" class="n hide-sm"><button data-k="f_growth">Grow</button></th>
+          <th data-field="f_sentiment" class="n hide-sm"><button data-k="f_sentiment">News</button></th>
+          <th data-field="pe" class="n hide-sm"><button data-k="pe">P/E</button></th>
+          <th data-field="ret_1y" class="n"><button data-k="ret_1y">1 yr %</button></th>
+          <th data-field="chg_pct" class="n"><button data-k="chg_pct">Today %</button></th>
+        </tr></thead><tbody></tbody></table></div>
+      <div class="detail card" id="stock-detail" hidden></div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="page" id="portfolio" hidden>
+    <div class="card empty" id="pf-empty" hidden>
+      <h2>No holdings yet</h2>
+      <p>Add them in chat with Claude: say “sync my Zerodha holdings”, upload a holdings export, or type them (symbol, quantity, average price, buy date). They are stored privately with this dashboard and never sent to GitHub.</p>
+    </div>
+    <div id="pf-body">
+      <div class="tiles">
+        <div class="card tile"><div class="lbl">Portfolio value</div>
+          <div class="big dash-skeleton" data-source="pf_summary" data-field="value" data-row="0">—</div>
+          <div class="sub"><span data-source="pf_summary" data-field="day_pnl_pct" data-row="0">—</span> today</div></div>
+        <div class="card tile"><div class="lbl">Unrealised gain</div>
+          <div class="big dash-skeleton" data-source="pf_summary" data-field="pnl" data-row="0">—</div>
+          <div class="sub"><span data-source="pf_summary" data-field="pnl_pct" data-row="0">—</span> on cost</div></div>
+        <div class="card tile"><div class="lbl">XIRR · since purchase</div>
+          <div class="big dash-skeleton"><span data-source="pf_summary" data-field="xirr_pct" data-row="0">—</span>%</div>
+          <div class="sub muted">lots with a buy date</div></div>
+        <div class="card tile"><div class="lbl">Weighted score percentile</div>
+          <div class="big dash-skeleton" data-source="pf_summary" data-field="weighted_percentile" data-row="0">—</div>
+          <div class="sub muted">50 = average Nifty 500 stock</div></div>
+        <div class="card tile"><div class="lbl">Effective number of stocks</div>
+          <div class="big dash-skeleton" data-source="pf_summary" data-field="effective_n" data-row="0">—</div>
+          <div class="sub muted">top 5 = <span data-source="pf_summary" data-field="top5_weight_pct" data-row="0">—</span>% of value</div></div>
+      </div>
+
+      <div class="card" id="pf-vs" style="margin-bottom:var(--cds-gap-md)">
+        <h2>Against the index · last 12 months</h2>
+        <p class="note">Your current holdings, at today's weights, over the last 252 trading days. Risk-free rate <span data-source="pf_summary" data-field="risk_free_pct" data-row="0">—</span>% (91-day T-bill).</p>
+        <div class="tbox"><table class="t-vs">
+          <thead><tr><th>Measure</th></tr></thead><tbody></tbody></table></div>
+      </div>
+
+      <div class="grid">
+        <div class="card" id="pf-curve-card">
+          <h2>Growth of ₹1 · last 12 months</h2>
+          <p class="note">Current holdings at today's weights vs Nifty 50 and Nifty 500.</p>
+          <div class="chart" id="pf-curve" data-source="pf_curve"></div>
+        </div>
+        <div class="card" id="pf-sec-card">
+          <h2>Sector tilt vs Nifty 500</h2>
+          <p class="note">Your weight minus the index weight, in percentage points.</p>
+          <div class="chart" id="pf-sec" data-source="pf_sectors"></div>
+        </div>
+      </div>
+
+      <div class="card" id="pf-holdings">
+        <h2>Holdings</h2>
+        <p class="note">Risk share is each stock's contribution to portfolio volatility. When it is well above the stock's weight, the stock adds more risk than its size suggests.</p>
+        <div class="tbox"><table class="t-hold" data-source="pf_holdings" data-row-key="symbol">
+          <thead><tr><th data-field="symbol">Stock</th><th data-field="weight_pct" class="n">Weight %</th><th data-field="risk_contrib_pct" class="n">Risk share %</th><th data-field="pnl_pct" class="n">Gain %</th><th data-field="day_chg_pct" class="n">Today %</th><th data-field="percentile" class="n">Pctl</th><th data-field="weaknesses" class="hide-sm">Weak on</th><th data-field="flags" class="hide-sm">Flags</th></tr></thead>
+          <tbody></tbody></table></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section class="page" id="news" hidden>
+    <div class="grid">
+      <div class="card" id="alerts-card">
+        <h2>Alerts</h2>
+        <p class="note">What the agent pushed to your phone, newest first.</p>
+        <div class="tbox"><table class="t-alert" data-source="alerts" data-row-key="id">
+          <thead><tr><th data-field="time_ist">When</th><th data-field="symbol">Stock</th><th data-field="message">Alert</th></tr></thead><tbody></tbody></table></div>
+      </div>
+      <div class="card" id="news-card">
+        <h2>News the agent read</h2>
+        <p class="note">Sentiment from −1 to +1 feeds each stock's news factor and fades with a 3-day half-life.</p>
+        <div class="tbox" id="news-list" data-source="news"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section class="page method" id="method" hidden>
+    <div class="card">
+      <h2>How the agent works</h2>
+      <p>Every hour from 6:15 AM to 5:15 PM IST on weekdays, a data job on GitHub downloads the Nifty 500 list from NSE, plus prices and fundamentals from Yahoo Finance. It then scores every stock. About half an hour later, Claude runs in Anthropic's cloud. It reads the news for your holdings, the top-ranked stocks and the day's big movers, rates each story's sentiment, recomputes your portfolio, refreshes this page, and sends a push notification when something important happens.</p>
+      <h2>The score</h2>
+      <ul>
+        <li><b>Momentum (20%)</b>: 12-month return, skipping the last month, plus 6-month return.</li>
+        <li><b>Quality (20%)</b>: operating and net profit margins, low debt to equity, and return on equity where it is reported.</li>
+        <li><b>Value (15%)</b>: earnings yield (1/PE) and book yield (1/PB).</li>
+        <li><b>Growth (15%)</b>: revenue and earnings growth.</li>
+        <li><b>Trend (10%)</b>: price vs the 200-day average, and 50-day above 200-day average.</li>
+        <li><b>Low volatility (10%)</b>: lower 1-year volatility scores higher.</li>
+        <li><b>News sentiment (10%)</b>: the agent's reading of recent news, fading over a few days.</li>
+      </ul>
+      <p>Each factor is a z-score within the stock's sector, so a bank is compared with banks, not with IT firms. Extreme values are trimmed. Missing data counts as neutral and lowers the coverage figure. "Liquid" means a median daily traded value of at least ₹2 crore over 60 days.</p>
+      <h2>Portfolio measures</h2>
+      <p>Beta, alpha (Jensen's), Sharpe, Sortino, tracking error, information ratio, upside and downside capture, maximum drawdown, Calmar, and 1-day 95% VaR and CVaR. All are computed from daily returns of your current holdings at today's weights over the last 252 trading days. XIRR uses your actual buy dates and prices. Sector weights for the Nifty 500 are approximated from full market cap, while the official index uses free-float.</p>
+      <h2>Limits</h2>
+      <p>Data comes from free public sources. It can be delayed by about 15 minutes, miss a stock, or fail for an hour. Yahoo's fundamentals can lag company filings. This is a research tool. It ranks and explains; it does not tell you to buy or sell, and it is not investment advice. Check anything important against the exchange or your broker before acting.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+(() => {
+  const root = document.querySelector('.sa');
+  const tabs = [...root.querySelectorAll('.tab')];
+  window.saActive = 'overview';
+  const show = (id) => {
+    window.saActive = id;
+    tabs.forEach(t => t.setAttribute('aria-selected', String(t.dataset.tab === id)));
+    root.querySelectorAll('.page').forEach(p => { p.hidden = p.id !== id; });
+    dash.setLink(id);
+    if (window.saRedraw) window.saRedraw();
+  };
+  tabs.forEach(t => t.addEventListener('click', () => show(t.dataset.tab)));
+  const start = location.hash.slice(1);
+  show(tabs.some(t => t.dataset.tab === start) ? start : 'overview');
+})();
+</script>
+
+<script>
+(() => {
+  const root = document.querySelector('.sa');
+  const f1 = d3.format(',.1f'), f2 = d3.format(',.2f'), f0 = d3.format(',.0f');
+  const inr = (v) => '₹' + (Math.abs(v) >= 1e7 ? f2(v / 1e7) + ' Cr' : Math.abs(v) >= 1e5 ? f2(v / 1e5) + ' L' : f0(v));
+  const sgn = (v, f = f2) => v == null || isNaN(v) ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '') + f(Math.abs(v));
+  const cls = (el, v) => { el.classList.remove('up', 'down'); if (v > 0) el.classList.add('up'); else if (v < 0) el.classList.add('down'); };
+  const num = (v) => v == null || v === '' ? null : Number(v);
+  const rows = (id) => { const d = dash.data(id); return d.status === 'ok' && Array.isArray(d.data) ? d.data : null; };
+
+  // Fill every single-value mark from its dataset
+  const fmtField = {
+    level: (v) => f2(v), chg_pct: (v) => sgn(v) + '%', ret_1y: (v) => sgn(v, f1) + '%',
+    advancers: f0, decliners: f0, above_200dma_pct: f1,
+    value: inr, pnl: (v) => (v < 0 ? '−' : '+') + inr(Math.abs(v)), pnl_pct: (v) => sgn(v) + '%',
+    day_pnl_pct: (v) => sgn(v) + '%', xirr_pct: (v) => sgn(v, f1), weighted_percentile: f0,
+    effective_n: f1, top5_weight_pct: f1, risk_free_pct: f1,
+  };
+  const signed = new Set(['chg_pct', 'ret_1y', 'pnl', 'pnl_pct', 'day_pnl_pct', 'xirr_pct']);
+  function fillMarks() {
+    root.querySelectorAll('[data-source][data-field]:not(th)').forEach(el => {
+      if (el.closest('table')) return;
+      const r = rows(el.dataset.source);
+      const box = el.closest('.dash-skeleton');
+      if (!r) { if (dash.data(el.dataset.source).status === 'error') { el.textContent = '—'; box && box.classList.remove('dash-skeleton'); } return; }
+      let row = null;
+      if (el.dataset.row != null) row = r[+el.dataset.row];
+      else if (el.dataset.where) { const [k, v] = el.dataset.where.split('='); row = r.find(x => String(x[k]) === v); }
+      const v = row ? row[el.dataset.field] : null;
+      const f = fmtField[el.dataset.field] || ((x) => String(x));
+      el.textContent = v == null || v === '' ? '—' : f(num(v) ?? v);
+      if (signed.has(el.dataset.field)) cls(el, num(v));
+      el.classList.remove('dash-skeleton'); box && box.classList.remove('dash-skeleton');
+    });
+  }
+
+  function takeaway() {
+    const el = document.getElementById('takeaway');
+    const s = rows('status'), ix = rows('indices'), sc = rows('scores');
+    if (!s || !ix || !s.length) return;
+    el.classList.remove('dash-skeleton');
+    const st = s[0], n5 = ix.find(r => r.index === 'Nifty 500');
+    const top = sc ? sc.filter(r => r.liquid === true || r.liquid === 'true').slice(0, 3).map(r => r.symbol).join(', ') : '';
+    const mood = n5 ? (num(n5.chg_pct) >= 0 ? 'up ' : 'down ') + f2(Math.abs(num(n5.chg_pct))) + '%' : '';
+    el.textContent = `Nifty 500 ${mood} today, ${st.advancers} stocks up and ${st.decliners} down. ` +
+      (top ? `Highest scores: ${top}. ` : '') +
+      `Prices as of ${String(st.market_data_ist || '').replace('T', ' ').slice(0, 16)} IST` +
+      (st.agent_run_ist ? `; news checked ${String(st.agent_run_ist).replace('T', ' ').slice(0, 16)} IST.` : '.');
+  }
+
+  function td(tr, text, numeric, signedV) {
+    const c = tr.insertCell(); c.textContent = text;
+    if (numeric) c.className = 'n';
+    if (signedV != null) cls(c, signedV);
+    return c;
+  }
+  const isLiquid = (r) => r.liquid === true || r.liquid === 'true';
+
+  function drawTop() {
+    const tb = root.querySelector('.t-top tbody'); tb.replaceChildren();
+    const r = rows('scores'); if (!r) return;
+    r.filter(isLiquid).slice(0, 15).forEach(x => {
+      const tr = tb.insertRow();
+      td(tr, x.rank, true); td(tr, x.symbol); td(tr, x.sector).className = 'hide-sm';
+      td(tr, f0(num(x.percentile)), true); td(tr, x.strengths || '—').className = 'hide-sm';
+      td(tr, sgn(num(x.chg_pct)) + '%', true, num(x.chg_pct));
+    });
+  }
+  function drawSectors() {
+    const tb = root.querySelector('.t-sec tbody'); tb.replaceChildren();
+    const r = rows('sectors'); if (!r) return;
+    r.forEach(x => {
+      const tr = tb.insertRow();
+      td(tr, x.sector); td(tr, sgn(num(x.chg)) + '%', true, num(x.chg)); td(tr, sgn(num(x.r1m), f1) + '%', true, num(x.r1m));
+      td(tr, sgn(num(x.score)), true, num(x.score)); td(tr, x.n, true).classList.add('hide-sm');
+    });
+  }
+  function drawFlags() {
+    const tb = root.querySelector('.t-flag tbody'); tb.replaceChildren();
+    const r = rows('scores'); if (!r) return;
+    const list = r.filter(x => isLiquid(x) && x.flags && x.flags !== 'Low liquidity')
+      .sort((a, b) => Math.abs(num(b.chg_pct)) - Math.abs(num(a.chg_pct))).slice(0, 25);
+    if (!list.length) { const tr = tb.insertRow(); const c = tr.insertCell(); c.colSpan = 4; c.className = 'muted'; c.textContent = 'Nothing unusual in the latest data.'; return; }
+    list.forEach(x => {
+      const tr = tb.insertRow();
+      td(tr, x.symbol); td(tr, x.flags.replace(/;? ?Low liquidity/, '')); td(tr, sgn(num(x.chg_pct)) + '%', true, num(x.chg_pct)); td(tr, f0(num(x.percentile)), true);
+    });
+  }
+
+  // Rankings
+  const rq = root.querySelector('.r-q'), rsec = root.querySelector('.r-sec'), rliq = root.querySelector('.r-liq');
+  let sortK = 'rank', sortDir = 1, picked = null;
+  [rq, rsec, rliq].forEach(el => el.addEventListener('input', drawRank));
+  root.querySelectorAll('.t-rank th button').forEach(b => b.addEventListener('click', () => {
+    const k = b.dataset.k; sortDir = sortK === k ? -sortDir : (['rank', 'symbol', 'sector', 'pe'].includes(k) ? 1 : -1); sortK = k; drawRank();
+  }));
+  root.querySelector('.t-rank').addEventListener('click', (e) => {
+    const tr = e.target.closest('tr[data-key]'); if (!tr) return; picked = tr.dataset.key; drawDetail();
+  });
+  function drawRank() {
+    const tb = root.querySelector('.t-rank tbody'); tb.replaceChildren();
+    const r = rows('scores'); if (!r) return;
+    const secs = [...new Set(r.map(x => x.sector))].sort();
+    if (rsec.options.length !== secs.length + 1) { const cur = rsec.value; rsec.replaceChildren(new Option('All sectors', ''), ...secs.map(s => new Option(s))); rsec.value = cur; }
+    const q = rq.value.trim().toLowerCase();
+    root.querySelectorAll('.t-rank th').forEach(th => th.setAttribute('aria-sort', th.dataset.field === sortK ? (sortDir > 0 ? 'ascending' : 'descending') : 'none'));
+    const list = r.filter(x => (!rliq.checked || isLiquid(x)) && (!rsec.value || x.sector === rsec.value) &&
+      (!q || x.symbol.toLowerCase().includes(q) || String(x.company).toLowerCase().includes(q)))
+      .sort((a, b) => {
+        const va = num(a[sortK]) ?? a[sortK], vb = num(b[sortK]) ?? b[sortK];
+        if (va == null || Number.isNaN(va)) return 1; if (vb == null || Number.isNaN(vb)) return -1;
+        return (typeof va === 'number' && typeof vb === 'number' ? va - vb : String(va).localeCompare(String(vb))) * sortDir;
+      });
+    const z = (v) => v == null || v === '' ? '—' : sgn(num(v), f1);
+    list.forEach(x => {
+      const tr = tb.insertRow(); tr.dataset.key = x.symbol;
+      td(tr, x.rank, true); td(tr, x.symbol); td(tr, x.sector).className = 'hide-sm'; td(tr, f0(num(x.percentile)), true);
+      ['f_momentum', 'f_quality', 'f_value', 'f_growth', 'f_sentiment'].forEach(k => { td(tr, z(x[k]), true, num(x[k])).classList.add('hide-sm'); });
+      td(tr, x.pe == null || x.pe === '' ? '—' : f1(num(x.pe)), true).classList.add('hide-sm');
+      td(tr, x.ret_1y == null || x.ret_1y === '' ? '—' : sgn(num(x.ret_1y), f1), true, num(x.ret_1y));
+      td(tr, sgn(num(x.chg_pct)), true, num(x.chg_pct));
+    });
+  }
+  function drawDetail() {
+    const box = document.getElementById('stock-detail');
+    const r = rows('scores'); const x = r && picked ? r.find(s => s.symbol === picked) : null;
+    if (!x) { box.hidden = true; box.replaceChildren(); return; }
+    box.hidden = false; box.replaceChildren();
+    const h = document.createElement('h2'); h.textContent = `${x.symbol} · ${x.company}`; box.append(h);
+    const p = document.createElement('p'); p.className = 'note';
+    p.textContent = `${x.sector} · rank ${x.rank} of ${r.length} · percentile ${f0(num(x.percentile))} · data coverage ${f0(num(x.coverage) * 100)}%` + (x.flags ? ` · ${x.flags}` : '');
+    box.append(p);
+    const g = document.createElement('div'); g.className = 'fbars'; box.append(g);
+    const labels = { f_momentum: 'Momentum', f_trend: 'Trend', f_quality: 'Quality', f_value: 'Value', f_growth: 'Growth', f_low_vol: 'Low volatility', f_sentiment: 'News sentiment' };
+    Object.entries(labels).forEach(([k, lab]) => {
+      const v = num(x[k]);
+      const a = document.createElement('div'); a.textContent = lab;
+      const bar = document.createElement('div'); bar.className = 'bar';
+      const fill = document.createElement('span');
+      if (v != null) { const w = Math.min(Math.abs(v), 3) / 3 * 50; fill.style.left = v >= 0 ? '50%' : (50 - w) + '%'; fill.style.width = w + '%'; fill.style.background = v >= 0 ? 'var(--color-ok)' : 'var(--color-bad)'; }
+      bar.append(fill);
+      const c = document.createElement('div'); c.className = 'n'; c.textContent = v == null ? 'n/a' : sgn(v, f1); if (v != null) cls(c, v);
+      g.append(a, bar, c);
+    });
+    const facts = document.createElement('p'); facts.className = 'note'; facts.style.marginTop = 'var(--cds-gap-sm)';
+    const pc = (v) => v == null || v === '' ? '—' : f1(num(v)) + '%';
+    facts.textContent = `Price ₹${f2(num(x.price))} · 1 mo ${pc(x.ret_1m)} · 3 mo ${pc(x.ret_3m)} · 1 yr ${pc(x.ret_1y)} · P/E ${x.pe ?? '—'} · P/B ${x.pb ?? '—'} · ROE ${pc(x.roe)} · Debt/equity ${x.de ?? '—'} · Revenue growth ${pc(x.rev_growth)} · Volatility ${pc(x.vol_1y)} · Market cap ₹${x.mcap_cr ? f0(num(x.mcap_cr)) + ' Cr' : '—'}`;
+    box.append(facts);
+  }
+
+  // Portfolio
+  function drawVs() {
+    const t = root.querySelector('.t-vs'); const r = rows('pf_vs');
+    const head = t.tHead.rows[0]; while (head.cells.length > 1) head.deleteCell(1);
+    const tb = t.tBodies[0]; tb.replaceChildren();
+    if (!r || !r.length) return;
+    r.forEach(b => { const th = document.createElement('th'); th.className = 'n'; th.textContent = 'vs ' + b.benchmark; head.append(th); });
+    const M = [
+      ['ann_return_pct', 'Your return, annualised %', 1, f1], ['benchmark_ann_return_pct', 'Index return %', 1, f1], ['excess_return_pct', 'Difference, points', 1, f1],
+      ['alpha_pct', 'Alpha (risk-adjusted) %', 1, f1], ['beta', 'Beta', 0, f2], ['volatility_pct', 'Volatility %', 0, f1],
+      ['sharpe', 'Sharpe ratio', 1, f2], ['sortino', 'Sortino ratio', 1, f2], ['information_ratio', 'Information ratio', 1, f2],
+      ['tracking_error_pct', 'Tracking error %', 0, f1], ['max_drawdown_pct', 'Worst drawdown %', 1, f1], ['calmar', 'Calmar ratio', 1, f2],
+      ['upside_capture_pct', 'Upside capture %', 0, f0], ['downside_capture_pct', 'Downside capture %', 0, f0],
+      ['correlation', 'Correlation', 0, f2], ['var95_1d_pct', '1-day loss, 95% VaR %', 0, f2], ['cvar95_1d_pct', '1-day loss, 95% CVaR %', 0, f2],
+    ];
+    M.forEach(([k, lab, colorIt, f]) => {
+      const tr = tb.insertRow(); tr.dataset.key = k; td(tr, lab);
+      r.forEach(b => {
+        const v = num(b[k]); const c = td(tr, v == null ? '—' : (colorIt ? sgn(v, f) : f(v)), true, colorIt ? v : null);
+        c.dataset.source = 'pf_vs'; c.dataset.field = k; c.dataset.where = 'benchmark=' + encodeURIComponent(b.benchmark).replace(/%20/g, ' ');
+      });
+    });
+  }
+  function drawHold() {
+    const tb = root.querySelector('.t-hold tbody'); tb.replaceChildren();
+    const r = rows('pf_holdings'); if (!r) return;
+    r.forEach(h => {
+      const tr = tb.insertRow();
+      td(tr, h.symbol); td(tr, f1(num(h.weight_pct)), true);
+      const rc = num(h.risk_contrib_pct); const c = td(tr, rc == null ? '—' : f1(rc), true);
+      if (rc != null && rc > num(h.weight_pct) * 1.5) c.classList.add('down');
+      td(tr, sgn(num(h.pnl_pct), f1), true, num(h.pnl_pct)); td(tr, sgn(num(h.day_chg_pct)), true, num(h.day_chg_pct));
+      td(tr, h.percentile == null ? '—' : f0(num(h.percentile)), true);
+      td(tr, h.weaknesses || '—').className = 'hide-sm'; td(tr, h.flags || '').className = 'hide-sm';
+    });
+  }
+  function drawCurve() {
+    const box = document.getElementById('pf-curve'); box.replaceChildren();
+    const r = rows('pf_curve'); if (!r || !r.length || window.saActive !== 'portfolio') return;
+    const keys = ['portfolio', 'Nifty 50', 'Nifty 500'].filter(k => r[0][k] != null);
+    const names = { portfolio: 'Your portfolio' };
+    const data = r.map(d => ({ date: new Date(d.date), ...Object.fromEntries(keys.map(k => [k, num(d[k])])) }));
+    const W = box.clientWidth || 600, H = 260, m = { t: 10, r: 10, b: 24, l: 10 };
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const all = data.flatMap(d => keys.map(k => d[k])).filter(v => v != null);
+    const y = d3.scaleLinear(d3.extent(all), [H - m.b, m.t]).nice();
+    const yax = svg.append('g').call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('.2f'))).attr('font-size', null).attr('font-family', null);
+    yax.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)');
+    const lw = d3.max(yax.selectAll('text').nodes(), n => n.getComputedTextLength()) || 30;
+    m.l = lw + 12; yax.attr('transform', `translate(${m.l},0)`); yax.select('.domain').remove(); yax.selectAll('line').remove();
+    const x = d3.scaleUtc(d3.extent(data, d => d.date), [m.l, W - m.r - 92]);
+    svg.append('g').selectAll('line').data(y.ticks(5)).join('line').attr('x1', m.l).attr('x2', W - m.r - 92).attr('y1', y).attr('y2', y).attr('stroke', 'var(--cds-chart-grid)');
+    const xax = svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.max(2, Math.floor(W / 110))).tickFormat(d3.utcFormat('%b %y')).tickSizeOuter(0)).attr('font-size', null).attr('font-family', null);
+    xax.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)'); xax.select('.domain').attr('stroke', 'var(--cds-chart-axis)'); xax.selectAll('line').remove();
+    const col = (i) => i === 0 ? dash.colors[0] : (i === 1 ? 'var(--cds-chart-muted)' : dash.colors[2]);
+    keys.forEach((k, i) => {
+      svg.append('path').datum(data.filter(d => d[k] != null)).attr('fill', 'none').attr('stroke', col(i)).attr('stroke-width', 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round')
+        .attr('d', d3.line().x(d => x(d.date)).y(d => y(d[k])));
+    });
+    // End labels, nudged apart
+    const ends = keys.map((k, i) => ({ k, i, v: data[data.length - 1][k], y: y(data[data.length - 1][k]) })).sort((a, b) => a.y - b.y);
+    for (let j = 1; j < ends.length; j++) if (ends[j].y - ends[j - 1].y < 14) ends[j].y = ends[j - 1].y + 14;
+    ends.forEach(e => svg.append('text').attr('x', W - m.r - 88).attr('y', e.y + 4).attr('fill', col(e.i)).style('font-size', 'var(--cds-font-size-caption)').text(`${names[e.k] || e.k} ${f2(e.v)}`));
+    const tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; box.append(tip);
+    const rule = svg.append('line').attr('stroke', 'var(--cds-chart-reference)').attr('y1', m.t).attr('y2', H - m.b).attr('opacity', 0);
+    const bis = d3.bisector(d => d.date).center;
+    svg.on('pointermove', (ev) => {
+      const [px] = d3.pointer(ev); const d = data[bis(data, x.invert(px))]; if (!d) return;
+      rule.attr('x1', x(d.date)).attr('x2', x(d.date)).attr('opacity', 1);
+      tip.hidden = false; tip.replaceChildren();
+      const dd = document.createElement('div'); dd.className = 'd'; dd.textContent = d3.utcFormat('%b %-d, %Y')(d.date); tip.append(dd);
+      keys.forEach((k, i) => { const line = document.createElement('div'); const sw = document.createElement('span'); sw.className = 'sw'; sw.style.background = col(i); line.append(sw, `${names[k] || k}: ₹${f2(d[k])}`); tip.append(line); });
+      const bw = box.clientWidth, tw = tip.offsetWidth, sx = x(d.date) / W * bw;
+      tip.style.left = Math.min(Math.max(0, sx + 10), bw - tw) + 'px'; tip.style.top = '8px';
+    }).on('pointerleave', () => { tip.hidden = true; rule.attr('opacity', 0); });
+  }
+  function drawSecTilt() {
+    const box = document.getElementById('pf-sec'); box.replaceChildren();
+    const r = rows('pf_sectors'); if (!r || !r.length || window.saActive !== 'portfolio') return;
+    const data = r.map(d => ({ s: d.sector, v: num(d.active_pct) })).sort((a, b) => b.v - a.v).slice(0, 14);
+    const W = box.clientWidth || 600, rowH = 22, H = data.length * rowH + 10;
+    box.style.minHeight = H + 'px';
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const tmp = svg.append('g').selectAll('text').data(data).join('text').style('font-size', 'var(--cds-font-size-caption)').text(d => d.s);
+    const lw = Math.min(d3.max(tmp.nodes(), n => n.getComputedTextLength()) + 10, W * 0.45); tmp.remove();
+    const ext = d3.max(data, d => Math.abs(d.v)) || 1;
+    const x = d3.scaleLinear([-ext, ext], [lw, W - 52]);
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', H).attr('stroke', 'var(--cds-chart-axis)');
+    data.forEach((d, i) => {
+      const yy = i * rowH + 4;
+      svg.append('text').attr('x', 0).attr('y', yy + 13).attr('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)').text(d.s.length > 26 ? d.s.slice(0, 25) + '…' : d.s);
+      svg.append('rect').attr('x', Math.min(x(0), x(d.v))).attr('width', Math.max(1, Math.abs(x(d.v) - x(0)))).attr('y', yy + 3).attr('height', 12).attr('rx', 4)
+        .attr('fill', d.v >= 0 ? dash.colors[0] : 'var(--cds-chart-muted)');
+      svg.append('text').attr('x', d.v >= 0 ? x(d.v) + 4 : x(0) + 4).attr('y', yy + 13).attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text(sgn(d.v, f1));
+    });
+  }
+
+  // News & alerts
+  function drawAlerts() {
+    const tb = root.querySelector('.t-alert tbody'); tb.replaceChildren();
+    const r = rows('alerts'); if (!r) return;
+    if (!r.length) { const tr = tb.insertRow(); const c = tr.insertCell(); c.colSpan = 3; c.className = 'muted'; c.textContent = 'No alerts yet.'; return; }
+    r.forEach(a => { const tr = tb.insertRow(); tr.dataset.key = a.id; td(tr, String(a.time_ist).replace('T', ' ').slice(5, 16)); td(tr, a.symbol || '—'); td(tr, a.message); });
+  }
+  function drawNews() {
+    const box = document.getElementById('news-list'); box.replaceChildren();
+    const r = rows('news'); if (!r) return;
+    if (!r.length) { const p = document.createElement('p'); p.className = 'muted'; p.textContent = 'The agent has not logged any news yet. It will after its first hourly run.'; box.append(p); return; }
+    r.forEach(n => {
+      const it = document.createElement('div'); it.className = 'news-item';
+      const top = document.createElement('div'); top.className = 'note'; top.style.margin = '0';
+      const s = num(n.sentiment);
+      const pill = document.createElement('span'); pill.className = 'pill'; pill.textContent = n.symbol || 'Market';
+      const sent = document.createElement('span'); sent.textContent = s == null ? '' : ` sentiment ${sgn(s, f1)}`; cls(sent, s);
+      top.append(pill, `${String(n.time_ist).replace('T', ' ').slice(5, 16)} · ${n.source || ''}`, sent);
+      const a = document.createElement(n.url && /^https:\/\//.test(n.url) ? 'a' : 'div');
+      if (a.tagName === 'A') { a.href = n.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+      a.textContent = n.headline;
+      it.append(top, a);
+      if (n.summary) { const p = document.createElement('div'); p.className = 'note'; p.style.margin = '2px 0 0'; p.textContent = n.summary; it.append(p); }
+      box.append(it);
+    });
+  }
+
+  function portfolioState() {
+    const s = rows('pf_summary');
+    const empty = s && s.length === 0;
+    document.getElementById('pf-empty').hidden = !empty;
+    document.getElementById('pf-body').hidden = !!empty;
+  }
+
+  window.saRedraw = () => { drawCurve(); drawSecTilt(); };
+  dash.onData(() => {
+    fillMarks(); takeaway(); drawTop(); drawSectors(); drawFlags(); drawRank(); drawDetail();
+    portfolioState(); drawVs(); drawHold(); drawCurve(); drawSecTilt(); drawAlerts(); drawNews();
+  });
+})();
+</script>

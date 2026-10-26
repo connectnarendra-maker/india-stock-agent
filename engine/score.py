@@ -7,7 +7,7 @@ Factors (each z-scored within sector when the sector has >= 8 names,
 otherwise across the whole universe; winsorised at 2.5/97.5 percentiles):
   momentum   12-1 month return (60%) + 6-1 month return (40%)
   trend      distance from 200-day average, plus 50 > 200 day crossover
-  quality    ROE, operating margin, low debt/equity
+  quality    ROE (when reported), operating and net margins, low debt/equity
   value      earnings yield (1/PE), book yield (1/PB)
   growth     revenue growth, earnings growth
   low_vol    negative 1-year annualised volatility
@@ -134,7 +134,7 @@ def main():
         "trend": combine(zscore(last / ma200 - 1, sector),
                          zscore((ma50 > ma200).astype(float).where(ma200.notna()), sector)),
         "quality": combine(zscore(f("returnOnEquity"), sector), zscore(f("operatingMargins"), sector),
-                           zscore(-de, sector)),
+                           zscore(f("profitMargins"), sector), zscore(-de, sector)),
         "value": combine(zscore(ey, sector), zscore(by, sector)),
         "growth": combine(zscore(f("revenueGrowth"), sector), zscore(f("earningsGrowth"), sector)),
         "low_vol": zscore(-vol1y, sector),
