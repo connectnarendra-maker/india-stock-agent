@@ -30,5 +30,21 @@
    "asof": "2026-10-26T14:38+05:30",
    "headline": "Dr Reddy's shares rise after Q2 despite lower profit; analysts upgrade"
   }
+ ],
+ "ATHERENERG": [
+  {
+   "score": 0.7,
+   "importance": 1.5,
+   "asof": "2026-10-26T15:38+05:30",
+   "headline": "Ather Energy jumps about 17% intraday after Q2 earnings turnaround"
+  }
+ ],
+ "IDEA": [
+  {
+   "score": 0.3,
+   "importance": 1.0,
+   "asof": "2026-10-26T15:38+05:30",
+   "headline": "Vodafone Idea rebounds, ending four-day slide amid Jio IPO focus"
+  }
  ]
 }
