@@ -1,0 +1,6 @@
+out/
+prev/
+__pycache__/
+*.pyc
+holdings*.json
+portfolio_out*.json
