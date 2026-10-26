@@ -21,6 +21,12 @@
    "importance": 1.5,
    "asof": "2026-10-26T14:38+05:30",
    "headline": "Shriram Finance drops to 11-month low after Q2 growth outlook cut"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-10-26T17:40+05:30",
+   "headline": "Shriram Finance among top large-cap losers as NBFC stocks weaken"
   }
  ],
  "DRREDDY": [
@@ -45,6 +51,14 @@
    "importance": 1.0,
    "asof": "2026-10-26T15:38+05:30",
    "headline": "Vodafone Idea rebounds, ending four-day slide amid Jio IPO focus"
+  }
+ ],
+ "TATAPOWER": [
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-10-26T17:40+05:30",
+   "headline": "Tata Power slips with energy index on crude-driven inflation worries"
   }
  ]
 }
