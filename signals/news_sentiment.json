@@ -14,5 +14,21 @@
    "asof": "2026-10-26T13:17+05:30",
    "headline": "MRPL shares rally sharply in Monday trade"
   }
+ ],
+ "SHRIRAMFIN": [
+  {
+   "score": -0.6,
+   "importance": 1.5,
+   "asof": "2026-10-26T14:38+05:30",
+   "headline": "Shriram Finance drops to 11-month low after Q2 growth outlook cut"
+  }
+ ],
+ "DRREDDY": [
+  {
+   "score": 0.3,
+   "importance": 1.5,
+   "asof": "2026-10-26T14:38+05:30",
+   "headline": "Dr Reddy's shares rise after Q2 despite lower profit; analysts upgrade"
+  }
  ]
 }
