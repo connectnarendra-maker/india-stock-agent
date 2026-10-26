@@ -249,7 +249,7 @@
   const sgn = (v, f = f2) => v == null || isNaN(v) ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '') + f(Math.abs(v));
   const cls = (el, v) => { el.classList.remove('up', 'down'); if (v > 0) el.classList.add('up'); else if (v < 0) el.classList.add('down'); };
   const num = (v) => v == null || v === '' ? null : Number(v);
-  const rows = (id) => { const d = dash.data(id); return d.status === 'ok' && Array.isArray(d.data) ? d.data : null; };
+  const rows = (id) => { const d = dash.data(id); return d.status === 'ok' && Array.isArray(d.data) ? d.data.filter(x => x.status !== 'no_holdings') : null; };
 
   // Fill every single-value mark from its dataset
   const fmtField = {
@@ -491,13 +491,15 @@
   // News & alerts
   function drawAlerts() {
     const tb = root.querySelector('.t-alert tbody'); tb.replaceChildren();
-    const r = rows('alerts'); if (!r) return;
+    let r = rows('alerts'); if (!r) return;
+    r = r.filter(a => a.id !== 'none');
     if (!r.length) { const tr = tb.insertRow(); const c = tr.insertCell(); c.colSpan = 3; c.className = 'muted'; c.textContent = 'No alerts yet.'; return; }
     r.forEach(a => { const tr = tb.insertRow(); tr.dataset.key = a.id; td(tr, String(a.time_ist).replace('T', ' ').slice(5, 16)); td(tr, a.symbol || '—'); td(tr, a.message); });
   }
   function drawNews() {
     const box = document.getElementById('news-list'); box.replaceChildren();
-    const r = rows('news'); if (!r) return;
+    let r = rows('news'); if (!r) return;
+    r = r.filter(n => n.id !== 'none');
     if (!r.length) { const p = document.createElement('p'); p.className = 'muted'; p.textContent = 'The agent has not logged any news yet. It will after its first hourly run.'; box.append(p); return; }
     r.forEach(n => {
       const it = document.createElement('div'); it.className = 'news-item';

@@ -17,7 +17,18 @@ state = json.load(open(STATE)) if os.path.exists(STATE) else {}
 pf = json.load(open(PF)) if PF != "-" and os.path.exists(PF) else None
 
 
+PLACEHOLDER = {
+    "news": {"id": "none", "time_ist": "", "symbol": None, "headline": "", "summary": "", "source": "",
+             "url": "", "sentiment": None, "importance": None},
+    "alerts": {"id": "none", "key": "", "time_ist": "", "symbol": None, "type": "none", "message": "", "priority": 0},
+}
+
+
 def w(name, rows):
+    # The dashboard treats a file with no rows as a failed load, so an empty
+    # list becomes one placeholder row the page knows to skip.
+    if not rows:
+        rows = [PLACEHOLDER.get(name, {"status": "no_holdings"})]
     json.dump(rows, open(f"{OUT}/{name}.json", "w"), separators=(",", ":"), ensure_ascii=False)
 
 
