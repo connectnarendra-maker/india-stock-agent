@@ -1,1 +1,18 @@
-{}
+{
+ "AUBANK": [
+  {
+   "score": -0.4,
+   "importance": 1.5,
+   "asof": "2026-10-26T13:17+05:30",
+   "headline": "AU Small Finance Bank slides after Q2 FY27 results despite profit jump"
+  }
+ ],
+ "MRPL": [
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-10-26T13:17+05:30",
+   "headline": "MRPL shares rally sharply in Monday trade"
+  }
+ ]
+}
