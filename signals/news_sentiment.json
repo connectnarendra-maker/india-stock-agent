@@ -106,5 +106,13 @@
    "asof": "2026-10-27T11:37+05:30",
    "headline": "Bharat Electronics leads Sensex gainers in morning session"
   }
+ ],
+ "SONACOMS": [
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-10-27T13:40+05:30",
+   "headline": "Sona BLW posts about 35% revenue growth and 30% profit rise in Q2"
+  }
  ]
 }
