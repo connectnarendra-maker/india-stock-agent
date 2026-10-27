@@ -27,6 +27,12 @@
    "importance": 0.5,
    "asof": "2026-10-26T17:40+05:30",
    "headline": "Shriram Finance among top large-cap losers as NBFC stocks weaken"
+  },
+  {
+   "score": 0.3,
+   "importance": 1.5,
+   "asof": "2026-10-27T06:37+05:30",
+   "headline": "Shriram Finance Q2 consolidated profit rises 59% year on year"
   }
  ],
  "DRREDDY": [
@@ -59,6 +65,38 @@
    "importance": 0.5,
    "asof": "2026-10-26T17:40+05:30",
    "headline": "Tata Power slips with energy index on crude-driven inflation worries"
+  }
+ ],
+ "INFY": [
+  {
+   "score": -0.3,
+   "importance": 1.5,
+   "asof": "2026-10-27T06:37+05:30",
+   "headline": "Infosys Q2 profit up 6.2% but FY27 revenue growth outlook trimmed"
+  }
+ ],
+ "YESBANK": [
+  {
+   "score": -0.2,
+   "importance": 1.0,
+   "asof": "2026-10-27T06:37+05:30",
+   "headline": "Yes Bank yet to decide on AT-1 bond coupon payments"
+  }
+ ],
+ "TATASTEEL": [
+  {
+   "score": 0.0,
+   "importance": 0.5,
+   "asof": "2026-10-27T06:37+05:30",
+   "headline": "Tata Steel scheduled to report Q2 FY27 results on October 27"
+  }
+ ],
+ "VEDL": [
+  {
+   "score": 0.0,
+   "importance": 0.5,
+   "asof": "2026-10-27T06:37+05:30",
+   "headline": "Vedanta group companies due to report Q2 results October 28-29"
   }
  ]
 }
