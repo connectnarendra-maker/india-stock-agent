@@ -114,5 +114,45 @@
    "asof": "2026-10-27T13:40+05:30",
    "headline": "Sona BLW posts about 35% revenue growth and 30% profit rise in Q2"
   }
+ ],
+ "BHARTIARTL": [
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-10-27T16:39+05:30",
+   "headline": "Airtel gains about 3%, up roughly 12% so far in October"
+  }
+ ],
+ "OLAELEC": [
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-10-27T16:39+05:30",
+   "headline": "Ola Electric posts its biggest one-day gain since April"
+  }
+ ],
+ "ACUTAAS": [
+  {
+   "score": 0.7,
+   "importance": 1.5,
+   "asof": "2026-10-27T16:39+05:30",
+   "headline": "Acutaas Chemicals hits record high after Q2 profit rises about 71%"
+  }
+ ],
+ "ONESOURCE": [
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-10-27T16:39+05:30",
+   "headline": "OneSource Specialty Pharma rises after Q2 income grows 36.5%"
+  }
+ ],
+ "SUNTV": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-10-27T16:39+05:30",
+   "headline": "Sun TV climbs sharply as media index leads sectors"
+  }
  ]
 }
