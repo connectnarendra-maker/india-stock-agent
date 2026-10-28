@@ -103,6 +103,12 @@
    "importance": 0.5,
    "asof": "2026-10-27T06:37+05:30",
    "headline": "Vedanta group companies due to report Q2 results October 28-29"
+  },
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-10-28T16:38+05:30",
+   "headline": "Vedanta gains nearly 3% after reporting record Q2 FY27 profit"
   }
  ],
  "BEL": [
@@ -181,6 +187,12 @@
    "importance": 1.0,
    "asof": "2026-10-28T08:37+05:30",
    "headline": "Reliance to report Q2 FY27 results Oct 30, board to weigh NCD fundraise"
+  },
+  {
+   "score": -0.3,
+   "importance": 1.0,
+   "asof": "2026-10-28T16:38+05:30",
+   "headline": "Reliance slips about 2% as Jio Platforms debuts; Q2 results due Oct 30"
   }
  ],
  "LT": [
@@ -221,6 +233,14 @@
    "importance": 1.5,
    "asof": "2026-10-28T13:37+05:30",
    "headline": "PG Electroplast rises after Q2 profit more than quadruples on 43% revenue growth"
+  }
+ ],
+ "VAML": [
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-10-28T16:38+05:30",
+   "headline": "Vedanta Aluminium Q2 FY27 profit roughly doubles; revenue up about 41%"
   }
  ]
 }
