@@ -206,5 +206,21 @@
    "asof": "2026-10-28T12:39+05:30",
    "headline": "Piramal Pharma jumps about 15% after Q2 return to profit"
   }
+ ],
+ "CARTRADE": [
+  {
+   "score": -0.6,
+   "importance": 1.5,
+   "asof": "2026-10-28T13:37+05:30",
+   "headline": "CarTrade slides about 18% as Q2 profit stays flat despite revenue growth"
+  }
+ ],
+ "PGEL": [
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-10-28T13:37+05:30",
+   "headline": "PG Electroplast rises after Q2 profit more than quadruples on 43% revenue growth"
+  }
  ]
 }
