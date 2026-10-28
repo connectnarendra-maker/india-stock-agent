@@ -139,6 +139,12 @@
    "importance": 0.5,
    "asof": "2026-10-28T06:37+05:30",
    "headline": "Airtel was the largest contributor to the Nifty on a flat day"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-10-28T17:42+05:30",
+   "headline": "Bharti Airtel among top Nifty losers in weak session"
   }
  ],
  "OLAELEC": [
@@ -193,6 +199,12 @@
    "importance": 1.0,
    "asof": "2026-10-28T16:38+05:30",
    "headline": "Reliance slips about 2% as Jio Platforms debuts; Q2 results due Oct 30"
+  },
+  {
+   "score": -0.3,
+   "importance": 1.0,
+   "asof": "2026-10-28T17:42+05:30",
+   "headline": "Reliance biggest drag on Nifty as oil and gas index falls over 2%"
   }
  ],
  "LT": [
@@ -201,6 +213,12 @@
    "importance": 1.5,
    "asof": "2026-10-28T08:37+05:30",
    "headline": "L&T Q2 profit up 33% with record order inflows of Rs 1.48 lakh crore"
+  },
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-10-28T17:42+05:30",
+   "headline": "L&T gains nearly 4% after September-quarter profit rises about a third"
   }
  ],
  "MARUTI": [
