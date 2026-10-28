@@ -198,5 +198,13 @@
    "asof": "2026-10-28T08:37+05:30",
    "headline": "Maruti Suzuki Q2 profit falls 27% despite 26% revenue growth"
   }
+ ],
+ "PPLPHARMA": [
+  {
+   "score": 0.7,
+   "importance": 1.5,
+   "asof": "2026-10-28T12:39+05:30",
+   "headline": "Piramal Pharma jumps about 15% after Q2 return to profit"
+  }
  ]
 }
