@@ -205,6 +205,12 @@
    "importance": 1.0,
    "asof": "2026-10-28T17:42+05:30",
    "headline": "Reliance biggest drag on Nifty as oil and gas index falls over 2%"
+  },
+  {
+   "score": -0.3,
+   "importance": 1.0,
+   "asof": "2026-10-29T08:36+05:30",
+   "headline": "RIL and Jio Financial shares slip on Jio Platforms listing day"
   }
  ],
  "LT": [
@@ -259,6 +265,30 @@
    "importance": 1.5,
    "asof": "2026-10-28T16:38+05:30",
    "headline": "Vedanta Aluminium Q2 FY27 profit roughly doubles; revenue up about 41%"
+  }
+ ],
+ "UNITDSPR": [
+  {
+   "score": -0.3,
+   "importance": 1.5,
+   "asof": "2026-10-29T08:36+05:30",
+   "headline": "United Spirits Q2 profit at Rs 462 crore, lower year on year"
+  }
+ ],
+ "CONCORDBIO": [
+  {
+   "score": -0.2,
+   "importance": 1.5,
+   "asof": "2026-10-29T08:36+05:30",
+   "headline": "Concord Biotech falls despite 25% Q2 revenue growth amid margin pressure"
+  }
+ ],
+ "SYNGENE": [
+  {
+   "score": 0.5,
+   "importance": 1.5,
+   "asof": "2026-10-29T08:36+05:30",
+   "headline": "Syngene Q2 FY27 presentation points to margin recovery"
   }
  ]
 }
