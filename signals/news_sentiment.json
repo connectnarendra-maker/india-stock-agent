@@ -211,6 +211,12 @@
    "importance": 1.0,
    "asof": "2026-10-29T08:36+05:30",
    "headline": "RIL and Jio Financial shares slip on Jio Platforms listing day"
+  },
+  {
+   "score": 0.0,
+   "importance": 0.5,
+   "asof": "2026-10-29T09:37+05:30",
+   "headline": "Reliance board to meet October 30 on Q2 results and NCD fundraising"
   }
  ],
  "LT": [
@@ -289,6 +295,14 @@
    "importance": 1.5,
    "asof": "2026-10-29T08:36+05:30",
    "headline": "Syngene Q2 FY27 presentation points to margin recovery"
+  }
+ ],
+ "BANDHANBNK": [
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-10-29T09:37+05:30",
+   "headline": "Bandhan Bank Q2 FY27 net profit rises about fivefold to Rs 622 crore"
   }
  ]
 }
