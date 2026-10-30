@@ -95,6 +95,12 @@
    "importance": 0.5,
    "asof": "2026-10-27T06:37+05:30",
    "headline": "Tata Steel scheduled to report Q2 FY27 results on October 27"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-10-30T11:37+05:30",
+   "headline": "Tata Steel among early Sensex laggards on Friday"
   }
  ],
  "VEDL": [
@@ -335,6 +341,14 @@
    "importance": 1.5,
    "asof": "2026-10-30T10:37+05:30",
    "headline": "Trent rises after Q2 revenue and profit growth above 20%"
+  }
+ ],
+ "SUZLON": [
+  {
+   "score": -0.7,
+   "importance": 1.5,
+   "asof": "2026-10-30T11:37+05:30",
+   "headline": "Suzlon hits 52-week low as Q2 profit drops and FY27 margin guidance is cut"
   }
  ]
 }
