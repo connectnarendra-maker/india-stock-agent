@@ -291,6 +291,12 @@
    "importance": 1.5,
    "asof": "2026-10-29T08:36+05:30",
    "headline": "United Spirits Q2 profit at Rs 462 crore, lower year on year"
+  },
+  {
+   "score": 0.2,
+   "importance": 1.0,
+   "asof": "2026-10-30T14:37+05:30",
+   "headline": "United Spirits gains as margin improvement offsets lower profit and volumes"
   }
  ],
  "CONCORDBIO": [
@@ -355,6 +361,22 @@
    "importance": 1.5,
    "asof": "2026-10-30T11:37+05:30",
    "headline": "Suzlon hits 52-week low as Q2 profit drops and FY27 margin guidance is cut"
+  }
+ ],
+ "VEDPOWER": [
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-10-30T14:37+05:30",
+   "headline": "Vedanta Power rallies up to 14% in early trade after Q2 FY27 results"
+  }
+ ],
+ "VOGL": [
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-10-30T14:37+05:30",
+   "headline": "Vedanta Oil & Gas climbs sharply after September-quarter results"
   }
  ]
 }
