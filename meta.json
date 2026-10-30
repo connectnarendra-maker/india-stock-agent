@@ -1,0 +1,17 @@
+{
+ "run_at_ist": "2026-10-30T17:47+05:30",
+ "failures": {},
+ "notes": [],
+ "universe_source": "https://archives.nseindia.com/content/indices/ind_nifty500list.csv",
+ "latest_missing": 2,
+ "refreshed": {
+  "prices_hist": "2026-10-30T16:47:34.658231+05:30",
+  "latest": "2026-10-30T17:47:04.109745+05:30",
+  "fundamentals": "2026-10-30T07:09:22.673126+05:30"
+ },
+ "universe_count": 500,
+ "indices": {
+  "NIFTY50": "^NSEI",
+  "NIFTY500": "^CRSLDX"
+ }
+}
