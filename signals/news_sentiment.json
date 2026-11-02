@@ -33,6 +33,12 @@
    "importance": 1.5,
    "asof": "2026-10-27T06:37+05:30",
    "headline": "Shriram Finance Q2 consolidated profit rises 59% year on year"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-02T06:37+05:30",
+   "headline": "Shriram Finance was the top Nifty loser on Friday"
   }
  ],
  "DRREDDY": [
@@ -107,6 +113,12 @@
    "importance": 0.5,
    "asof": "2026-10-30T11:37+05:30",
    "headline": "Tata Steel among early Sensex laggards on Friday"
+  },
+  {
+   "score": -0.15,
+   "importance": 0.5,
+   "asof": "2026-11-02T06:37+05:30",
+   "headline": "Tata Steel features among Friday's Nifty laggards"
   }
  ],
  "VEDL": [
@@ -403,6 +415,14 @@
    "importance": 1.5,
    "asof": "2026-10-30T16:39+05:30",
    "headline": "Intellect Design falls about 14% after Q2 profit and sales miss estimates"
+  }
+ ],
+ "M&M": [
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-02T06:37+05:30",
+   "headline": "M&M among the leading Nifty decliners on Friday"
   }
  ]
 }
