@@ -1,12 +1,6 @@
 {
  "SHRIRAMFIN": [
   {
-   "score": -0.3,
-   "importance": 0.5,
-   "asof": "2026-10-26T17:40+05:30",
-   "headline": "Shriram Finance among top large-cap losers as NBFC stocks weaken"
-  },
-  {
    "score": 0.3,
    "importance": 1.5,
    "asof": "2026-10-27T06:37+05:30",
@@ -17,14 +11,6 @@
    "importance": 0.5,
    "asof": "2026-11-02T06:37+05:30",
    "headline": "Shriram Finance was the top Nifty loser on Friday"
-  }
- ],
- "TATAPOWER": [
-  {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-10-26T17:40+05:30",
-   "headline": "Tata Power slips with energy index on crude-driven inflation worries"
   }
  ],
  "INFY": [
@@ -425,6 +411,14 @@
    "importance": 0.5,
    "asof": "2026-11-02T06:37+05:30",
    "headline": "M&M among the leading Nifty decliners on Friday"
+  }
+ ],
+ "DEVYANI": [
+  {
+   "score": 0.3,
+   "importance": 1.5,
+   "asof": "2026-11-02T17:42+05:30",
+   "headline": "Devyani International posts Q2 FY27 profit with revenue up about 10%"
   }
  ]
 }
