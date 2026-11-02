@@ -19,22 +19,6 @@
    "headline": "Shriram Finance was the top Nifty loser on Friday"
   }
  ],
- "ATHERENERG": [
-  {
-   "score": 0.7,
-   "importance": 1.5,
-   "asof": "2026-10-26T15:38+05:30",
-   "headline": "Ather Energy jumps about 17% intraday after Q2 earnings turnaround"
-  }
- ],
- "IDEA": [
-  {
-   "score": 0.3,
-   "importance": 1.0,
-   "asof": "2026-10-26T15:38+05:30",
-   "headline": "Vodafone Idea rebounds, ending four-day slide amid Jio IPO focus"
-  }
- ],
  "TATAPOWER": [
   {
    "score": -0.2,
@@ -61,6 +45,12 @@
    "importance": 0.5,
    "asof": "2026-10-30T16:39+05:30",
    "headline": "Infosys among top Nifty gainers as IT index leads Friday's rally"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-02T16:42+05:30",
+   "headline": "Infosys slips about 2%, among few Nifty losers in strong session"
   }
  ],
  "YESBANK": [
@@ -101,6 +91,12 @@
    "importance": 1.0,
    "asof": "2026-11-02T11:40+05:30",
    "headline": "Tata Steel up about 5% in broad rally ahead of quarterly results"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-02T16:42+05:30",
+   "headline": "Tata Steel ends about 6% higher among Monday's top Nifty gainers"
   }
  ],
  "VEDL": [
@@ -247,6 +243,12 @@
    "importance": 1.5,
    "asof": "2026-11-02T11:40+05:30",
    "headline": "Reliance gains over 8% after record Q2 FY27 profit and revenue"
+  },
+  {
+   "score": 0.6,
+   "importance": 1.0,
+   "asof": "2026-11-02T16:42+05:30",
+   "headline": "Reliance closes about 12% higher, top Nifty gainer after record Q2"
   }
  ],
  "LT": [
