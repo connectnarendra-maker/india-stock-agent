@@ -5,6 +5,12 @@
    "importance": 0.5,
    "asof": "2026-11-02T06:37+05:30",
    "headline": "Shriram Finance was the top Nifty loser on Friday"
+  },
+  {
+   "score": 0.2,
+   "importance": 0.5,
+   "asof": "2026-11-03T10:36+05:30",
+   "headline": "Shriram Finance listed among major Sensex gainers on Tuesday morning"
   }
  ],
  "INFY": [
@@ -141,6 +147,12 @@
    "importance": 1.5,
    "asof": "2026-10-28T06:37+05:30",
    "headline": "Anup Bagchi takes charge as HDFC Bank MD and CEO"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-03T10:36+05:30",
+   "headline": "HDFC Bank among top Sensex gainers after new CEO takes charge"
   }
  ],
  "RELIANCE": [
@@ -387,6 +399,22 @@
    "importance": 1.5,
    "asof": "2026-11-02T17:42+05:30",
    "headline": "Devyani International posts Q2 FY27 profit with revenue up about 10%"
+  }
+ ],
+ "HINDUNILVR": [
+  {
+   "score": 0.5,
+   "importance": 1.5,
+   "asof": "2026-11-03T10:36+05:30",
+   "headline": "HUL climbs nearly 3% as Q2 growth beats recent quarters"
+  }
+ ],
+ "INDIGO": [
+  {
+   "score": 0.3,
+   "importance": 1.0,
+   "asof": "2026-11-03T10:36+05:30",
+   "headline": "IndiGo gains as Q2 loss narrows despite lower passenger numbers"
   }
  ]
 }
