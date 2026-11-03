@@ -1,12 +1,6 @@
 {
  "SHRIRAMFIN": [
   {
-   "score": 0.3,
-   "importance": 1.5,
-   "asof": "2026-10-27T06:37+05:30",
-   "headline": "Shriram Finance Q2 consolidated profit rises 59% year on year"
-  },
-  {
    "score": -0.2,
    "importance": 0.5,
    "asof": "2026-11-02T06:37+05:30",
@@ -14,12 +8,6 @@
   }
  ],
  "INFY": [
-  {
-   "score": -0.3,
-   "importance": 1.5,
-   "asof": "2026-10-27T06:37+05:30",
-   "headline": "Infosys Q2 profit up 6.2% but FY27 revenue growth outlook trimmed"
-  },
   {
    "score": -0.6,
    "importance": 1.5,
@@ -39,21 +27,7 @@
    "headline": "Infosys slips about 2%, among few Nifty losers in strong session"
   }
  ],
- "YESBANK": [
-  {
-   "score": -0.2,
-   "importance": 1.0,
-   "asof": "2026-10-27T06:37+05:30",
-   "headline": "Yes Bank yet to decide on AT-1 bond coupon payments"
-  }
- ],
  "TATASTEEL": [
-  {
-   "score": 0.0,
-   "importance": 0.5,
-   "asof": "2026-10-27T06:37+05:30",
-   "headline": "Tata Steel scheduled to report Q2 FY27 results on October 27"
-  },
   {
    "score": -0.2,
    "importance": 0.5,
@@ -86,12 +60,6 @@
   }
  ],
  "VEDL": [
-  {
-   "score": 0.0,
-   "importance": 0.5,
-   "asof": "2026-10-27T06:37+05:30",
-   "headline": "Vedanta group companies due to report Q2 results October 28-29"
-  },
   {
    "score": 0.6,
    "importance": 1.5,
