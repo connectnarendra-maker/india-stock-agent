@@ -73,14 +73,6 @@
    "headline": "Vedanta gains nearly 3% after reporting record Q2 FY27 profit"
   }
  ],
- "SONACOMS": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-27T13:40+05:30",
-   "headline": "Sona BLW posts about 35% revenue growth and 30% profit rise in Q2"
-  }
- ],
  "BHARTIARTL": [
   {
    "score": 0.4,
@@ -99,6 +91,12 @@
    "importance": 0.5,
    "asof": "2026-10-28T17:42+05:30",
    "headline": "Bharti Airtel among top Nifty losers in weak session"
+  },
+  {
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-03T14:36+05:30",
+   "headline": "Bharti Airtel up about 3.6%, among top Sensex gainers at midday"
   }
  ],
  "OLAELEC": [
@@ -145,6 +143,12 @@
    "importance": 1.0,
    "asof": "2026-11-03T10:36+05:30",
    "headline": "HDFC Bank among top Sensex gainers after new CEO takes charge"
+  },
+  {
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-03T14:36+05:30",
+   "headline": "HDFC Bank rises about 3% as banks lead Tuesday's market gains"
   }
  ],
  "RELIANCE": [
@@ -415,6 +419,22 @@
    "importance": 1.5,
    "asof": "2026-11-03T11:37+05:30",
    "headline": "Trident nearly doubles Q2 profit, board clears Rs 4,650 crore expansion"
+  }
+ ],
+ "SBIN": [
+  {
+   "score": 0.0,
+   "importance": 1.0,
+   "asof": "2026-11-03T14:36+05:30",
+   "headline": "SBI scheduled to report Q2 FY27 results on Tuesday"
+  }
+ ],
+ "MCX": [
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-03T14:36+05:30",
+   "headline": "MCX shares jump about 9% ahead of its Q2 results"
   }
  ]
 }
