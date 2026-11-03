@@ -75,12 +75,6 @@
  ],
  "BHARTIARTL": [
   {
-   "score": 0.4,
-   "importance": 1.0,
-   "asof": "2026-10-27T16:39+05:30",
-   "headline": "Airtel gains about 3%, up roughly 12% so far in October"
-  },
-  {
    "score": 0.3,
    "importance": 0.5,
    "asof": "2026-10-28T06:37+05:30",
@@ -97,38 +91,6 @@
    "importance": 0.5,
    "asof": "2026-11-03T14:36+05:30",
    "headline": "Bharti Airtel up about 3.6%, among top Sensex gainers at midday"
-  }
- ],
- "OLAELEC": [
-  {
-   "score": 0.4,
-   "importance": 1.0,
-   "asof": "2026-10-27T16:39+05:30",
-   "headline": "Ola Electric posts its biggest one-day gain since April"
-  }
- ],
- "ACUTAAS": [
-  {
-   "score": 0.7,
-   "importance": 1.5,
-   "asof": "2026-10-27T16:39+05:30",
-   "headline": "Acutaas Chemicals hits record high after Q2 profit rises about 71%"
-  }
- ],
- "ONESOURCE": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-27T16:39+05:30",
-   "headline": "OneSource Specialty Pharma rises after Q2 income grows 36.5%"
-  }
- ],
- "SUNTV": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-10-27T16:39+05:30",
-   "headline": "Sun TV climbs sharply as media index leads sectors"
   }
  ],
  "HDFCBANK": [
@@ -427,6 +389,18 @@
    "importance": 1.0,
    "asof": "2026-11-03T14:36+05:30",
    "headline": "SBI scheduled to report Q2 FY27 results on Tuesday"
+  },
+  {
+   "score": 0.5,
+   "importance": 1.5,
+   "asof": "2026-11-03T17:37+05:30",
+   "headline": "SBI Q2 profit up 14% to Rs 23,038 crore as bad loans decline"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-03T17:37+05:30",
+   "headline": "SBI slips 1.7%, among Nifty's top losers on results day"
   }
  ],
  "MCX": [
@@ -435,6 +409,22 @@
    "importance": 1.0,
    "asof": "2026-11-03T14:36+05:30",
    "headline": "MCX shares jump about 9% ahead of its Q2 results"
+  }
+ ],
+ "POWERGRID": [
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-03T17:37+05:30",
+   "headline": "Power Grid falls about 3%, the Nifty's weakest stock Tuesday"
+  }
+ ],
+ "NESTLEIND": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-03T17:37+05:30",
+   "headline": "Nestle India gains about 4.5% as FMCG stocks lead the rally"
   }
  ]
 }
