@@ -65,14 +65,6 @@
    "headline": "Tata Steel ends about 6% higher among Monday's top Nifty gainers"
   }
  ],
- "VEDL": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-28T16:38+05:30",
-   "headline": "Vedanta gains nearly 3% after reporting record Q2 FY27 profit"
-  }
- ],
  "BHARTIARTL": [
   {
    "score": -0.2,
@@ -102,12 +94,6 @@
   }
  ],
  "RELIANCE": [
-  {
-   "score": -0.3,
-   "importance": 1.0,
-   "asof": "2026-10-28T16:38+05:30",
-   "headline": "Reliance slips about 2% as Jio Platforms debuts; Q2 results due Oct 30"
-  },
   {
    "score": -0.3,
    "importance": 1.0,
@@ -163,14 +149,6 @@
    "importance": 1.5,
    "asof": "2026-10-28T17:42+05:30",
    "headline": "L&T gains nearly 4% after September-quarter profit rises about a third"
-  }
- ],
- "VAML": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-28T16:38+05:30",
-   "headline": "Vedanta Aluminium Q2 FY27 profit roughly doubles; revenue up about 41%"
   }
  ],
  "UNITDSPR": [
