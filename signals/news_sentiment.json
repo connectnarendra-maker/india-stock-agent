@@ -165,22 +165,6 @@
    "headline": "L&T gains nearly 4% after September-quarter profit rises about a third"
   }
  ],
- "CARTRADE": [
-  {
-   "score": -0.6,
-   "importance": 1.5,
-   "asof": "2026-10-28T13:37+05:30",
-   "headline": "CarTrade slides about 18% as Q2 profit stays flat despite revenue growth"
-  }
- ],
- "PGEL": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-28T13:37+05:30",
-   "headline": "PG Electroplast rises after Q2 profit more than quadruples on 43% revenue growth"
-  }
- ],
  "VAML": [
   {
    "score": 0.6,
@@ -453,6 +437,14 @@
    "importance": 1.5,
    "asof": "2026-11-04T11:39+05:30",
    "headline": "DOMS Q2 FY27 revenue grows about 18% while margins come under pressure"
+  }
+ ],
+ "ITC": [
+  {
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-04T13:40+05:30",
+   "headline": "ITC leads Sensex gainers with a rise of over 3% on Wednesday"
   }
  ]
 }
