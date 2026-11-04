@@ -25,6 +25,12 @@
    "importance": 0.5,
    "asof": "2026-11-02T16:42+05:30",
    "headline": "Infosys slips about 2%, among few Nifty losers in strong session"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-04T11:39+05:30",
+   "headline": "Infosys weighs on IT index as Nifty IT slides over 1%"
   }
  ],
  "TATASTEEL": [
@@ -439,6 +445,22 @@
    "importance": 1.5,
    "asof": "2026-11-04T10:39+05:30",
    "headline": "Fractal posts first $100 million revenue quarter; net income up 139%"
+  }
+ ],
+ "TCS": [
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-04T11:39+05:30",
+   "headline": "TCS among stocks dragging Nifty IT down over 1% on Wednesday"
+  }
+ ],
+ "DOMS": [
+  {
+   "score": 0.1,
+   "importance": 1.5,
+   "asof": "2026-11-04T11:39+05:30",
+   "headline": "DOMS Q2 FY27 revenue grows about 18% while margins come under pressure"
   }
  ]
 }
