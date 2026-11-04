@@ -15,12 +15,6 @@
  ],
  "INFY": [
   {
-   "score": -0.6,
-   "importance": 1.5,
-   "asof": "2026-10-28T10:37+05:30",
-   "headline": "Infosys slides over 4% after trimming FY27 revenue growth guidance"
-  },
-  {
    "score": 0.3,
    "importance": 0.5,
    "asof": "2026-10-30T16:39+05:30",
@@ -423,6 +417,28 @@
    "importance": 0.5,
    "asof": "2026-11-04T07:40+05:30",
    "headline": "Asian Paints climbs about 4% among Tuesday's top Nifty gainers"
+  }
+ ],
+ "EMCURE": [
+  {
+   "score": 0.7,
+   "importance": 1.5,
+   "asof": "2026-11-04T10:39+05:30",
+   "headline": "Emcure Pharma jumps about 10% after strong September-quarter numbers"
+  },
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-11-04T10:39+05:30",
+   "headline": "Emcure Q2 FY27 profit rises 34% with domestic revenue at Rs 1,155 crore"
+  }
+ ],
+ "FRACTAL": [
+  {
+   "score": 0.7,
+   "importance": 1.5,
+   "asof": "2026-11-04T10:39+05:30",
+   "headline": "Fractal posts first $100 million revenue quarter; net income up 139%"
   }
  ]
 }
