@@ -67,12 +67,6 @@
  ],
  "BHARTIARTL": [
   {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-10-28T17:42+05:30",
-   "headline": "Bharti Airtel among top Nifty losers in weak session"
-  },
-  {
    "score": 0.4,
    "importance": 0.5,
    "asof": "2026-11-03T14:36+05:30",
@@ -94,12 +88,6 @@
   }
  ],
  "RELIANCE": [
-  {
-   "score": -0.3,
-   "importance": 1.0,
-   "asof": "2026-10-28T17:42+05:30",
-   "headline": "Reliance biggest drag on Nifty as oil and gas index falls over 2%"
-  },
   {
    "score": -0.3,
    "importance": 1.0,
@@ -141,14 +129,6 @@
    "importance": 1.0,
    "asof": "2026-11-02T16:42+05:30",
    "headline": "Reliance closes about 12% higher, top Nifty gainer after record Q2"
-  }
- ],
- "LT": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-28T17:42+05:30",
-   "headline": "L&T gains nearly 4% after September-quarter profit rises about a third"
   }
  ],
  "UNITDSPR": [
