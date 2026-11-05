@@ -90,12 +90,6 @@
  "RELIANCE": [
   {
    "score": 0.0,
-   "importance": 0.5,
-   "asof": "2026-10-29T09:37+05:30",
-   "headline": "Reliance board to meet October 30 on Q2 results and NCD fundraising"
-  },
-  {
-   "score": 0.0,
    "importance": 1.0,
    "asof": "2026-10-30T13:39+05:30",
    "headline": "Reliance to report Q2 FY27 results today; retail seen as soft spot"
@@ -131,14 +125,6 @@
    "importance": 1.0,
    "asof": "2026-10-30T14:37+05:30",
    "headline": "United Spirits gains as margin improvement offsets lower profit and volumes"
-  }
- ],
- "BANDHANBNK": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-29T09:37+05:30",
-   "headline": "Bandhan Bank Q2 FY27 net profit rises about fivefold to Rs 622 crore"
   }
  ],
  "BSOFT": [
