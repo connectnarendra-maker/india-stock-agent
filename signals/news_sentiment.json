@@ -91,6 +91,12 @@
    "importance": 0.5,
    "asof": "2026-11-03T14:36+05:30",
    "headline": "HDFC Bank rises about 3% as banks lead Tuesday's market gains"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-05T12:40+05:30",
+   "headline": "HDFC Bank gains about 2% as banking index rallies"
   }
  ],
  "RELIANCE": [
@@ -399,6 +405,14 @@
    "importance": 1.5,
    "asof": "2026-11-05T10:40+05:30",
    "headline": "IIFL Finance Q2 FY27 consolidated profit nearly doubles to about Rs 805 crore"
+  }
+ ],
+ "ICICIBANK": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-05T12:40+05:30",
+   "headline": "ICICI Bank up about 3% intraday among top banking gainers"
   }
  ]
 }
