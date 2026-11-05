@@ -89,12 +89,6 @@
  ],
  "RELIANCE": [
   {
-   "score": -0.3,
-   "importance": 1.0,
-   "asof": "2026-10-29T08:36+05:30",
-   "headline": "RIL and Jio Financial shares slip on Jio Platforms listing day"
-  },
-  {
    "score": 0.0,
    "importance": 0.5,
    "asof": "2026-10-29T09:37+05:30",
@@ -133,32 +127,10 @@
  ],
  "UNITDSPR": [
   {
-   "score": -0.3,
-   "importance": 1.5,
-   "asof": "2026-10-29T08:36+05:30",
-   "headline": "United Spirits Q2 profit at Rs 462 crore, lower year on year"
-  },
-  {
    "score": 0.2,
    "importance": 1.0,
    "asof": "2026-10-30T14:37+05:30",
    "headline": "United Spirits gains as margin improvement offsets lower profit and volumes"
-  }
- ],
- "CONCORDBIO": [
-  {
-   "score": -0.2,
-   "importance": 1.5,
-   "asof": "2026-10-29T08:36+05:30",
-   "headline": "Concord Biotech falls despite 25% Q2 revenue growth amid margin pressure"
-  }
- ],
- "SYNGENE": [
-  {
-   "score": 0.5,
-   "importance": 1.5,
-   "asof": "2026-10-29T08:36+05:30",
-   "headline": "Syngene Q2 FY27 presentation points to margin recovery"
   }
  ],
  "BANDHANBNK": [
