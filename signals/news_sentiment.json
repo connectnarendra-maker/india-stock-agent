@@ -29,6 +29,12 @@
    "importance": 0.5,
    "asof": "2026-11-05T16:40+05:30",
    "headline": "Shriram Finance among Thursday's closing top Nifty gainers"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-06T12:42+05:30",
+   "headline": "Shriram Finance among Friday's Sensex laggards, down nearly 3%"
   }
  ],
  "INFY": [
@@ -353,6 +359,12 @@
    "importance": 0.5,
    "asof": "2026-11-04T11:39+05:30",
    "headline": "TCS among stocks dragging Nifty IT down over 1% on Wednesday"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-06T12:42+05:30",
+   "headline": "TCS climbs over 2% as IT stocks rebound on Friday"
   }
  ],
  "DOMS": [
@@ -433,6 +445,22 @@
    "importance": 1.5,
    "asof": "2026-11-06T11:41+05:30",
    "headline": "Thermax sinks about 15% toward 52-week low after weak Q2 operations"
+  }
+ ],
+ "TDPOWERSYS": [
+  {
+   "score": -0.4,
+   "importance": 1.0,
+   "asof": "2026-11-06T12:42+05:30",
+   "headline": "TD Power Systems slides over 12% intraday, extending two-day fall to about 19%"
+  }
+ ],
+ "APARINDS": [
+  {
+   "score": -0.4,
+   "importance": 1.0,
+   "asof": "2026-11-06T12:42+05:30",
+   "headline": "Apar Industries falls about 6-7% intraday on selling pressure"
   }
  ]
 }
