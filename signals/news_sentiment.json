@@ -39,12 +39,6 @@
  ],
  "INFY": [
   {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-10-30T16:39+05:30",
-   "headline": "Infosys among top Nifty gainers as IT index leads Friday's rally"
-  },
-  {
    "score": -0.3,
    "importance": 0.5,
    "asof": "2026-11-02T16:42+05:30",
@@ -163,14 +157,6 @@
    "importance": 1.0,
    "asof": "2026-10-30T17:49+05:30",
    "headline": "Vedanta Oil and Gas among Vedanta group stocks rising sharply"
-  }
- ],
- "INTELLECT": [
-  {
-   "score": -0.6,
-   "importance": 1.5,
-   "asof": "2026-10-30T16:39+05:30",
-   "headline": "Intellect Design falls about 14% after Q2 profit and sales miss estimates"
   }
  ],
  "M&M": [
