@@ -149,21 +149,7 @@
    "headline": "Reliance closes about 12% higher, top Nifty gainer after record Q2"
   }
  ],
- "UNITDSPR": [
-  {
-   "score": 0.2,
-   "importance": 1.0,
-   "asof": "2026-10-30T14:37+05:30",
-   "headline": "United Spirits gains as margin improvement offsets lower profit and volumes"
-  }
- ],
  "VEDPOWER": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-30T14:37+05:30",
-   "headline": "Vedanta Power rallies up to 14% in early trade after Q2 FY27 results"
-  },
   {
    "score": 0.7,
    "importance": 1.5,
@@ -172,12 +158,6 @@
   }
  ],
  "VOGL": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-30T14:37+05:30",
-   "headline": "Vedanta Oil & Gas climbs sharply after September-quarter results"
-  },
   {
    "score": 0.5,
    "importance": 1.0,
