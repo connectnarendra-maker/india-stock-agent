@@ -163,14 +163,6 @@
    "headline": "United Spirits gains as margin improvement offsets lower profit and volumes"
   }
  ],
- "TRENT": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-10-30T10:37+05:30",
-   "headline": "Trent rises after Q2 revenue and profit growth above 20%"
-  }
- ],
  "SUZLON": [
   {
    "score": -0.7,
@@ -227,6 +219,12 @@
    "importance": 0.5,
    "asof": "2026-11-06T09:40+05:30",
    "headline": "M&M leads early Sensex gainers, up about 3% on Friday"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-06T10:40+05:30",
+   "headline": "M&M up about 5% on Dhanteras as Sensex gains 400 points"
   }
  ],
  "DEVYANI": [
