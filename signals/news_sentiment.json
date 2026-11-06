@@ -53,12 +53,6 @@
  ],
  "TATASTEEL": [
   {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-10-30T11:37+05:30",
-   "headline": "Tata Steel among early Sensex laggards on Friday"
-  },
-  {
    "score": -0.15,
    "importance": 0.5,
    "asof": "2026-11-02T06:37+05:30",
@@ -161,14 +155,6 @@
    "importance": 1.0,
    "asof": "2026-10-30T14:37+05:30",
    "headline": "United Spirits gains as margin improvement offsets lower profit and volumes"
-  }
- ],
- "SUZLON": [
-  {
-   "score": -0.7,
-   "importance": 1.5,
-   "asof": "2026-10-30T11:37+05:30",
-   "headline": "Suzlon hits 52-week low as Q2 profit drops and FY27 margin guidance is cut"
   }
  ],
  "VEDPOWER": [
@@ -439,6 +425,14 @@
    "importance": 1.5,
    "asof": "2026-11-05T17:40+05:30",
    "headline": "Cummins India slumps over 10% after weak September-quarter results"
+  }
+ ],
+ "THERMAX": [
+  {
+   "score": -0.7,
+   "importance": 1.5,
+   "asof": "2026-11-06T11:41+05:30",
+   "headline": "Thermax sinks about 15% toward 52-week low after weak Q2 operations"
   }
  ]
 }
