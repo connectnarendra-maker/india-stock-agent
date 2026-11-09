@@ -426,5 +426,21 @@
    "asof": "2026-11-09T10:37+05:30",
    "headline": "Gland Pharma rises over 6% after Q2 profit climbs 58%"
   }
+ ],
+ "IDEA": [
+  {
+   "score": 0.3,
+   "importance": 1.5,
+   "asof": "2026-11-09T14:38+05:30",
+   "headline": "Vodafone Idea slips even as SBI-led debt funding plan advances"
+  }
+ ],
+ "YESBANK": [
+  {
+   "score": -0.2,
+   "importance": 1.0,
+   "asof": "2026-11-09T14:38+05:30",
+   "headline": "Yes Bank eases after five-day rally; AT-1 bond repayment timeline still unclear"
+  }
  ]
 }
