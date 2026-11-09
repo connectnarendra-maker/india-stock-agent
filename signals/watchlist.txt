@@ -1,1 +1,4 @@
 # Extra NSE symbols to track outside the Nifty 500 (one per line, ticker only)
+EMBDL
+JPL
+NSE.BO  # NSE Ltd is listed only on BSE

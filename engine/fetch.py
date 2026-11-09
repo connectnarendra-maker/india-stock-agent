@@ -74,11 +74,27 @@ def load_universe():
 
 
 def extra_symbols():
-    """Watchlist symbols outside the Nifty 500 (ticker only, nothing else)."""
+    """Watchlist symbols outside the Nifty 500 (ticker only, nothing else).
+
+    One per line. A plain symbol is fetched from NSE (SYMBOL.NS); a symbol with a
+    Yahoo suffix (e.g. "NSE.BO" for a BSE-only listing) is fetched as written but
+    stored under SYMBOL.NS so every downstream step keys it the same way.
+    Returns {symbol: yahoo_ticker}.
+    """
     p = "signals/watchlist.txt"
     if not os.path.exists(p):
-        return []
-    return [s.strip().upper() for s in open(p) if s.strip() and not s.startswith("#")]
+        return {}
+    out = {}
+    for line in open(p):
+        t = line.split("#")[0].strip().upper()
+        if not t:
+            continue
+        sym = t.rsplit(".", 1)[0] if t.endswith((".NS", ".BO")) else t
+        out[sym] = t if "." in t else f"{t}.NS"
+    return out
+
+
+ALIAS = {}  # yahoo ticker -> SYMBOL.NS, for watchlist symbols not fetched from NSE
 
 
 def download(tickers, period, interval="1d"):
@@ -97,28 +113,31 @@ def download(tickers, period, interval="1d"):
                 time.sleep(5 * (attempt + 1))
     c = pd.concat(closes, axis=1) if closes else pd.DataFrame()
     v = pd.concat(vols, axis=1) if vols else pd.DataFrame()
-    return c, v
+    return c.rename(columns=ALIAS), v.rename(columns=ALIAS)
 
 
 def fundamentals_for(t):
     for attempt in range(3):
         try:
             info = yf.Ticker(t).info or {}
-            return t, {k: info.get(k) for k in FUND_FIELDS}
+            return ALIAS.get(t, t), {k: info.get(k) for k in FUND_FIELDS}
         except Exception:
             time.sleep(2 * (attempt + 1))
-    return t, None
+    return ALIAS.get(t, t), None
 
 
 def main():
     os.makedirs(OUT, exist_ok=True)
     refreshed = {}
     uni = load_universe()
-    extras = [s for s in extra_symbols() if s not in set(uni.symbol)]
-    for s in extras:
+    extras = {s: t for s, t in extra_symbols().items() if s not in set(uni.symbol)}
+    for s, t in extras.items():
         uni.loc[len(uni)] = [s, s, "Watchlist"]
+        if t != f"{s}.NS":
+            ALIAS[t] = f"{s}.NS"
     uni.to_csv(f"{OUT}/universe.csv", index=False)
-    yticks = [f"{s}.NS" for s in uni.symbol] + list(INDICES.values())
+    yahoo = {v: k for k, v in ALIAS.items()}
+    yticks = [yahoo.get(f"{s}.NS", f"{s}.NS") for s in uni.symbol] + list(INDICES.values())
 
     # Daily history: refresh after market close or if older than 20h
     after_close = NOW.hour >= 16
@@ -150,7 +169,7 @@ def main():
 
     # Fundamentals once a day
     if age_hours("fundamentals") > 20 or not prev_path("fundamentals.json"):
-        stock_ticks = [f"{s}.NS" for s in uni.symbol]
+        stock_ticks = [yahoo.get(f"{s}.NS", f"{s}.NS") for s in uni.symbol]
         with ThreadPoolExecutor(max_workers=8) as ex:
             res = dict(ex.map(fundamentals_for, stock_ticks))
         bad = [t for t, v in res.items() if v is None]
