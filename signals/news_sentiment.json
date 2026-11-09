@@ -1,12 +1,6 @@
 {
  "SHRIRAMFIN": [
   {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-11-02T06:37+05:30",
-   "headline": "Shriram Finance was the top Nifty loser on Friday"
-  },
-  {
    "score": 0.2,
    "importance": 0.5,
    "asof": "2026-11-03T10:36+05:30",
@@ -52,12 +46,6 @@
   }
  ],
  "TATASTEEL": [
-  {
-   "score": -0.15,
-   "importance": 0.5,
-   "asof": "2026-11-02T06:37+05:30",
-   "headline": "Tata Steel features among Friday's Nifty laggards"
-  },
   {
    "score": 0.2,
    "importance": 0.5,
@@ -144,12 +132,6 @@
   }
  ],
  "M&M": [
-  {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-11-02T06:37+05:30",
-   "headline": "M&M among the leading Nifty decliners on Friday"
-  },
   {
    "score": 0.3,
    "importance": 0.5,
