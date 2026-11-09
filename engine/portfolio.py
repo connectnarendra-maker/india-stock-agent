@@ -109,7 +109,7 @@ def main():
 
     # Return series with current weights
     cols = [f"{s}.NS" for s in pos.index]
-    R = px[cols].ffill(limit=5).pct_change(fill_method=None).iloc[-TD:]
+    R = px.reindex(columns=cols).ffill(limit=5).pct_change(fill_method=None).iloc[-TD:]
     R.columns = pos.index
     R = R.dropna(axis=1, thresh=int(TD * 0.6)).fillna(0)
     w = pos.weight.reindex(R.columns).fillna(0)

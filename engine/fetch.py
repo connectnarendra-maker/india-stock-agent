@@ -141,7 +141,10 @@ def main():
 
     # Daily history: refresh after market close or if older than 20h
     after_close = NOW.hour >= 16
-    if age_hours("prices_hist") > 20 or (after_close and age_hours("prices_hist") > 3) \
+    new_syms = False
+    if prev_path("universe.csv"):
+        new_syms = bool(set(uni.symbol) - set(pd.read_csv(prev_path("universe.csv")).symbol))
+    if new_syms or age_hours("prices_hist") > 20 or (after_close and age_hours("prices_hist") > 3) \
             or not prev_path("prices_hist.csv.gz"):
         c, v = download(yticks, "2y")
         c.to_csv(f"{OUT}/prices_hist.csv.gz")
