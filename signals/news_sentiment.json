@@ -35,12 +35,6 @@
   {
    "score": -0.3,
    "importance": 0.5,
-   "asof": "2026-11-02T16:42+05:30",
-   "headline": "Infosys slips about 2%, among few Nifty losers in strong session"
-  },
-  {
-   "score": -0.3,
-   "importance": 0.5,
    "asof": "2026-11-04T11:39+05:30",
    "headline": "Infosys weighs on IT index as Nifty IT slides over 1%"
   },
@@ -52,12 +46,6 @@
   }
  ],
  "TATASTEEL": [
-  {
-   "score": 0.4,
-   "importance": 1.0,
-   "asof": "2026-11-02T16:42+05:30",
-   "headline": "Tata Steel ends about 6% higher among Monday's top Nifty gainers"
-  },
   {
    "score": 0.4,
    "importance": 1.5,
@@ -109,14 +97,6 @@
    "importance": 0.5,
    "asof": "2026-11-05T12:40+05:30",
    "headline": "HDFC Bank gains about 2% as banking index rallies"
-  }
- ],
- "RELIANCE": [
-  {
-   "score": 0.6,
-   "importance": 1.0,
-   "asof": "2026-11-02T16:42+05:30",
-   "headline": "Reliance closes about 12% higher, top Nifty gainer after record Q2"
   }
  ],
  "M&M": [
