@@ -388,5 +388,29 @@
    "asof": "2026-11-06T12:42+05:30",
    "headline": "Apar Industries falls about 6-7% intraday on selling pressure"
   }
+ ],
+ "FINCABLES": [
+  {
+   "score": 0.7,
+   "importance": 1.5,
+   "asof": "2026-11-09T08:37+05:30",
+   "headline": "Finolex Cables surges in Muhurat trading after strong September-quarter revenue"
+  }
+ ],
+ "DIVISLAB": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-09T08:37+05:30",
+   "headline": "Divi's Labs gains about 5% as pharma stocks lead Muhurat session"
+  }
+ ],
+ "ZEEL": [
+  {
+   "score": 0.2,
+   "importance": 0.5,
+   "asof": "2026-11-09T08:37+05:30",
+   "headline": "Zee Entertainment climbs over 6% during Muhurat trading"
+  }
  ]
 }
