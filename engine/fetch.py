@@ -131,8 +131,10 @@ def main():
     refreshed = {}
     uni = load_universe()
     extras = {s: t for s, t in extra_symbols().items() if s not in set(uni.symbol)}
+    uni = pd.concat([uni.reset_index(drop=True),
+                     pd.DataFrame({"symbol": list(extras), "company": list(extras), "industry": "Watchlist"})],
+                    ignore_index=True)
     for s, t in extras.items():
-        uni.loc[len(uni)] = [s, s, "Watchlist"]
         if t != f"{s}.NS":
             ALIAS[t] = f"{s}.NS"
     uni.to_csv(f"{OUT}/universe.csv", index=False)
