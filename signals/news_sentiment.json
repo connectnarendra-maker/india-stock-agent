@@ -43,6 +43,12 @@
    "importance": 0.5,
    "asof": "2026-11-04T11:39+05:30",
    "headline": "Infosys weighs on IT index as Nifty IT slides over 1%"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-09T10:37+05:30",
+   "headline": "Infosys among top Nifty losers as IT stocks slide"
   }
  ],
  "TATASTEEL": [
@@ -63,6 +69,12 @@
    "importance": 1.0,
    "asof": "2026-11-02T16:42+05:30",
    "headline": "Tata Steel ends about 6% higher among Monday's top Nifty gainers"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.5,
+   "asof": "2026-11-09T10:37+05:30",
+   "headline": "Tata Steel Q2 FY27 profit rises about 16% on higher revenue"
   }
  ],
  "BHARTIARTL": [
@@ -83,6 +95,12 @@
    "importance": 0.5,
    "asof": "2026-11-06T09:40+05:30",
    "headline": "Bharti Airtel among early gainers after its Q2 FY27 results"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-09T10:37+05:30",
+   "headline": "Bharti Airtel among top three Nifty 50 losers on Monday morning"
   }
  ],
  "HDFCBANK": [
@@ -106,12 +124,6 @@
   }
  ],
  "RELIANCE": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-11-02T09:37+05:30",
-   "headline": "Reliance Q2 FY27 net profit reportedly rises about 41% year on year"
-  },
   {
    "score": 0.6,
    "importance": 1.5,
@@ -395,6 +407,12 @@
    "importance": 1.5,
    "asof": "2026-11-09T08:37+05:30",
    "headline": "Finolex Cables surges in Muhurat trading after strong September-quarter revenue"
+  },
+  {
+   "score": 0.1,
+   "importance": 1.0,
+   "asof": "2026-11-09T10:37+05:30",
+   "headline": "Finolex Cables gives back about 4% despite strong Q2 numbers"
   }
  ],
  "DIVISLAB": [
@@ -403,6 +421,12 @@
    "importance": 0.5,
    "asof": "2026-11-09T08:37+05:30",
    "headline": "Divi's Labs gains about 5% as pharma stocks lead Muhurat session"
+  },
+  {
+   "score": 0.7,
+   "importance": 1.5,
+   "asof": "2026-11-09T10:37+05:30",
+   "headline": "Divi's Labs hits 52-week high after Q2 profit jumps about 64%"
   }
  ],
  "ZEEL": [
@@ -411,6 +435,14 @@
    "importance": 0.5,
    "asof": "2026-11-09T08:37+05:30",
    "headline": "Zee Entertainment climbs over 6% during Muhurat trading"
+  }
+ ],
+ "GLAND": [
+  {
+   "score": 0.5,
+   "importance": 1.5,
+   "asof": "2026-11-09T10:37+05:30",
+   "headline": "Gland Pharma rises over 6% after Q2 profit climbs 58%"
   }
  ]
 }
