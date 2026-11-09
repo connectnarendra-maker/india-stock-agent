@@ -101,9 +101,14 @@ def main():
     pos = pos.drop(index=missing)
     pos["price"] = [latest.price[f"{s}.NS"] for s in pos.index]
     pos["prev_close"] = [latest.prev_close[f"{s}.NS"] for s in pos.index]
+    for s in pos.index[pos.prev_close.isna()]:  # 5-day feed missed the prior bar: use daily history
+        h = px[f"{s}.NS"].dropna() if f"{s}.NS" in px.columns else pd.Series(dtype=float)
+        h = h[h.index.date < dt.date.fromisoformat(str(latest.bar_date[f"{s}.NS"]))]
+        if len(h):
+            pos.loc[s, "prev_close"] = h.iloc[-1]
     pos["value"] = pos.qty * pos.price
     pos["pnl"] = pos.value - pos.cost
-    pos["day_pnl"] = pos.qty * (pos.price - pos.prev_close)
+    pos["day_pnl"] = (pos.qty * (pos.price - pos.prev_close)).fillna(0)
     total = pos.value.sum()
     pos["weight"] = pos.value / total
 
@@ -167,7 +172,7 @@ def main():
             "qty": float(pos.qty[s]), "avg_price": round(pos.avg_price[s], 2), "price": round(pos.price[s], 2),
             "value": round(pos.value[s], 2), "weight_pct": round(pos.weight[s] * 100, 2),
             "pnl": round(pos.pnl[s], 2), "pnl_pct": round(pos.pnl[s] / pos.cost[s] * 100, 2),
-            "day_chg_pct": round((pos.price[s] / pos.prev_close[s] - 1) * 100, 2),
+            "day_chg_pct": None if pd.isna(pos.prev_close[s]) else round((pos.price[s] / pos.prev_close[s] - 1) * 100, 2),
             "risk_contrib_pct": round(float(rc.get(s, np.nan)) * 100, 1) if s in rc else None,
             "score": scores.get(s, {}).get("score"), "percentile": scores.get(s, {}).get("percentile"),
             "rank": scores.get(s, {}).get("rank"), "flags": scores.get(s, {}).get("flags", []),

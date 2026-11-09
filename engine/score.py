@@ -117,6 +117,10 @@ def main():
     ma50, ma200 = P.rolling(50).mean().iloc[-1], P.rolling(200).mean().iloc[-1]
     vol1y = rets.iloc[-252:].std() * np.sqrt(252)
     hi52, lo52 = P.iloc[-252:].max(), P.iloc[-252:].min()
+    # 52-week flags need a real trading history; skip recent listings (< 60 sessions)
+    short_hist = P.iloc[-252:].notna().sum() < 60
+    hi52[short_hist] = float("nan")
+    lo52[short_hist] = float("nan")
     tv_cr = (P * V).iloc[-61:-1].median() / 1e7
 
     def f(col):
