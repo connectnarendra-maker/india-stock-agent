@@ -99,18 +99,6 @@
  ],
  "SBIN": [
   {
-   "score": 0.5,
-   "importance": 1.5,
-   "asof": "2026-11-03T17:37+05:30",
-   "headline": "SBI Q2 profit up 14% to Rs 23,038 crore as bad loans decline"
-  },
-  {
-   "score": -0.3,
-   "importance": 0.5,
-   "asof": "2026-11-03T17:37+05:30",
-   "headline": "SBI slips 1.7%, among Nifty's top losers on results day"
-  },
-  {
    "score": 0.3,
    "importance": 0.5,
    "asof": "2026-11-04T09:39+05:30",
@@ -121,22 +109,6 @@
    "importance": 0.5,
    "asof": "2026-11-09T13:40+05:30",
    "headline": "SBI tops Sensex gainers at Monday open while IT stocks drag indices"
-  }
- ],
- "POWERGRID": [
-  {
-   "score": -0.3,
-   "importance": 0.5,
-   "asof": "2026-11-03T17:37+05:30",
-   "headline": "Power Grid falls about 3%, the Nifty's weakest stock Tuesday"
-  }
- ],
- "NESTLEIND": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-03T17:37+05:30",
-   "headline": "Nestle India gains about 4.5% as FMCG stocks lead the rally"
   }
  ],
  "MARICO": [
