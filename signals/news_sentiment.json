@@ -49,12 +49,6 @@
  ],
  "BHARTIARTL": [
   {
-   "score": 0.4,
-   "importance": 0.5,
-   "asof": "2026-11-03T14:36+05:30",
-   "headline": "Bharti Airtel up about 3.6%, among top Sensex gainers at midday"
-  },
-  {
    "score": 0.5,
    "importance": 1.5,
    "asof": "2026-11-06T07:40+05:30",
@@ -74,12 +68,6 @@
   }
  ],
  "HDFCBANK": [
-  {
-   "score": 0.4,
-   "importance": 0.5,
-   "asof": "2026-11-03T14:36+05:30",
-   "headline": "HDFC Bank rises about 3% as banks lead Tuesday's market gains"
-  },
   {
    "score": 0.3,
    "importance": 0.5,
@@ -111,12 +99,6 @@
  ],
  "SBIN": [
   {
-   "score": 0.0,
-   "importance": 1.0,
-   "asof": "2026-11-03T14:36+05:30",
-   "headline": "SBI scheduled to report Q2 FY27 results on Tuesday"
-  },
-  {
    "score": 0.5,
    "importance": 1.5,
    "asof": "2026-11-03T17:37+05:30",
@@ -139,14 +121,6 @@
    "importance": 0.5,
    "asof": "2026-11-09T13:40+05:30",
    "headline": "SBI tops Sensex gainers at Monday open while IT stocks drag indices"
-  }
- ],
- "MCX": [
-  {
-   "score": 0.4,
-   "importance": 1.0,
-   "asof": "2026-11-03T14:36+05:30",
-   "headline": "MCX shares jump about 9% ahead of its Q2 results"
   }
  ],
  "POWERGRID": [
