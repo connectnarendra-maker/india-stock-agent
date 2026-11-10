@@ -1,12 +1,6 @@
 {
  "SHRIRAMFIN": [
   {
-   "score": 0.2,
-   "importance": 0.5,
-   "asof": "2026-11-03T10:36+05:30",
-   "headline": "Shriram Finance listed among major Sensex gainers on Tuesday morning"
-  },
-  {
    "score": 0.3,
    "importance": 0.5,
    "asof": "2026-11-05T10:40+05:30",
@@ -82,12 +76,6 @@
  "HDFCBANK": [
   {
    "score": 0.4,
-   "importance": 1.0,
-   "asof": "2026-11-03T10:36+05:30",
-   "headline": "HDFC Bank among top Sensex gainers after new CEO takes charge"
-  },
-  {
-   "score": 0.4,
    "importance": 0.5,
    "asof": "2026-11-03T14:36+05:30",
    "headline": "HDFC Bank rises about 3% as banks lead Tuesday's market gains"
@@ -119,22 +107,6 @@
    "importance": 0.5,
    "asof": "2026-11-05T17:40+05:30",
    "headline": "Devyani International climbs about 8% intraday, outpacing its sector"
-  }
- ],
- "HINDUNILVR": [
-  {
-   "score": 0.5,
-   "importance": 1.5,
-   "asof": "2026-11-03T10:36+05:30",
-   "headline": "HUL climbs nearly 3% as Q2 growth beats recent quarters"
-  }
- ],
- "INDIGO": [
-  {
-   "score": 0.3,
-   "importance": 1.0,
-   "asof": "2026-11-03T10:36+05:30",
-   "headline": "IndiGo gains as Q2 loss narrows despite lower passenger numbers"
   }
  ],
  "TRIDENT": [
