@@ -73,6 +73,12 @@
    "importance": 0.5,
    "asof": "2026-11-05T12:40+05:30",
    "headline": "HDFC Bank gains about 2% as banking index rallies"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-11T11:37+05:30",
+   "headline": "HDFC Bank shares reach three-month high amid banking rally"
   }
  ],
  "M&M": [
@@ -93,6 +99,12 @@
    "importance": 0.5,
    "asof": "2026-11-11T10:37+05:30",
    "headline": "M&M among early gainers as markets rally on softer crude"
+  },
+  {
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-11T11:37+05:30",
+   "headline": "M&M among top Sensex gainers in broad-based opening rally"
   }
  ],
  "DEVYANI": [
@@ -109,28 +121,12 @@
    "importance": 0.5,
    "asof": "2026-11-09T13:40+05:30",
    "headline": "SBI tops Sensex gainers at Monday open while IT stocks drag indices"
-  }
- ],
- "EMCURE": [
-  {
-   "score": 0.7,
-   "importance": 1.5,
-   "asof": "2026-11-04T10:39+05:30",
-   "headline": "Emcure Pharma jumps about 10% after strong September-quarter numbers"
   },
   {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-11-04T10:39+05:30",
-   "headline": "Emcure Q2 FY27 profit rises 34% with domestic revenue at Rs 1,155 crore"
-  }
- ],
- "FRACTAL": [
-  {
-   "score": 0.7,
-   "importance": 1.5,
-   "asof": "2026-11-04T10:39+05:30",
-   "headline": "Fractal posts first $100 million revenue quarter; net income up 139%"
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-11T11:37+05:30",
+   "headline": "SBI features among leading Sensex gainers as bank stocks rally"
   }
  ],
  "TCS": [
@@ -201,6 +197,12 @@
    "importance": 1.5,
    "asof": "2026-11-05T10:40+05:30",
    "headline": "IIFL Finance Q2 FY27 consolidated profit nearly doubles to about Rs 805 crore"
+  },
+  {
+   "score": 0.5,
+   "importance": 1.5,
+   "asof": "2026-11-11T11:37+05:30",
+   "headline": "IIFL Finance climbs as brokerage backs Blackstone stake purchase"
   }
  ],
  "ICICIBANK": [
@@ -309,6 +311,14 @@
    "importance": 0.5,
    "asof": "2026-11-11T10:37+05:30",
    "headline": "IndiGo leads early gainers, up about 5% as crude oil eases"
+  }
+ ],
+ "KALYANKJIL": [
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-11-11T11:37+05:30",
+   "headline": "Kalyan Jewellers jumps about 10% after September-quarter results"
   }
  ]
 }
