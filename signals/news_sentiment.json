@@ -111,30 +111,6 @@
    "headline": "SBI tops Sensex gainers at Monday open while IT stocks drag indices"
   }
  ],
- "MARICO": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-11-04T07:40+05:30",
-   "headline": "Marico shares surge about 10% after September-quarter earnings"
-  }
- ],
- "BSE": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-04T07:40+05:30",
-   "headline": "BSE Ltd tops Nifty gainers, rising about 5% on Tuesday"
-  }
- ],
- "ASIANPAINT": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-04T07:40+05:30",
-   "headline": "Asian Paints climbs about 4% among Tuesday's top Nifty gainers"
-  }
- ],
  "EMCURE": [
   {
    "score": 0.7,
