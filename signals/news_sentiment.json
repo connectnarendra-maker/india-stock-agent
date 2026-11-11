@@ -155,22 +155,6 @@
    "headline": "TCS climbs over 2% as IT stocks rebound on Friday"
   }
  ],
- "BEL": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-04T14:40+05:30",
-   "headline": "Bharat Electronics among top Nifty gainers in Wednesday midday trade"
-  }
- ],
- "JYOTICNC": [
-  {
-   "score": 0.4,
-   "importance": 1.5,
-   "asof": "2026-11-04T14:40+05:30",
-   "headline": "Jyoti CNC standalone Q2 profit up 46% on record machine dispatches"
-  }
- ],
  "SAMMAANCAP": [
   {
    "score": 0.3,
