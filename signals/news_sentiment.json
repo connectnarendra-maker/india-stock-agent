@@ -111,6 +111,12 @@
    "importance": 0.5,
    "asof": "2026-11-11T11:37+05:30",
    "headline": "M&M among top Sensex gainers in broad-based opening rally"
+  },
+  {
+   "score": 0.6,
+   "importance": 1.5,
+   "asof": "2026-11-11T14:37+05:30",
+   "headline": "M&M shares climb about 5% as Q2 FY27 profit grows 25%"
   }
  ],
  "DEVYANI": [
@@ -147,14 +153,6 @@
    "importance": 0.5,
    "asof": "2026-11-06T12:42+05:30",
    "headline": "TCS climbs over 2% as IT stocks rebound on Friday"
-  }
- ],
- "ITC": [
-  {
-   "score": 0.4,
-   "importance": 0.5,
-   "asof": "2026-11-04T13:40+05:30",
-   "headline": "ITC leads Sensex gainers with a rise of over 3% on Wednesday"
   }
  ],
  "BEL": [
@@ -317,6 +315,12 @@
    "importance": 1.5,
    "asof": "2026-11-11T11:37+05:30",
    "headline": "Kalyan Jewellers jumps about 10% after September-quarter results"
+  },
+  {
+   "score": 0.7,
+   "importance": 1.5,
+   "asof": "2026-11-11T14:37+05:30",
+   "headline": "Kalyan Jewellers hits 52-week high after Q2 profit jumps about 64%"
   }
  ]
 }
