@@ -87,6 +87,12 @@
    "importance": 0.5,
    "asof": "2026-11-06T10:40+05:30",
    "headline": "M&M up about 5% on Dhanteras as Sensex gains 400 points"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-11T10:37+05:30",
+   "headline": "M&M among early gainers as markets rally on softer crude"
   }
  ],
  "DEVYANI": [
@@ -98,12 +104,6 @@
   }
  ],
  "SBIN": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-04T09:39+05:30",
-   "headline": "SBI among top early gainers a day after Q2 results"
-  },
   {
    "score": 0.3,
    "importance": 0.5,
@@ -301,6 +301,14 @@
    "importance": 1.0,
    "asof": "2026-11-09T14:38+05:30",
    "headline": "Yes Bank eases after five-day rally; AT-1 bond repayment timeline still unclear"
+  }
+ ],
+ "INDIGO": [
+  {
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-11T10:37+05:30",
+   "headline": "IndiGo leads early gainers, up about 5% as crude oil eases"
   }
  ]
 }
