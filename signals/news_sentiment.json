@@ -117,6 +117,12 @@
    "importance": 1.5,
    "asof": "2026-11-11T14:37+05:30",
    "headline": "M&M shares climb about 5% as Q2 FY27 profit grows 25%"
+  },
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-11-11T17:39+05:30",
+   "headline": "M&M tops Nifty gainers, closing up about 5.3% near Rs 3,465"
   }
  ],
  "DEVYANI": [
@@ -191,6 +197,12 @@
    "importance": 0.5,
    "asof": "2026-11-05T12:40+05:30",
    "headline": "ICICI Bank up about 3% intraday among top banking gainers"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-11T17:39+05:30",
+   "headline": "ICICI Bank among top Nifty losers, slipping about 1.1% on rally day"
   }
  ],
  "CUMMINSIND": [
