@@ -300,5 +300,21 @@
    "asof": "2026-11-12T13:37+05:30",
    "headline": "Bandhan Bank among top banking-sector gainers, up about 3%"
   }
+ ],
+ "GABRIEL": [
+  {
+   "score": 0.4,
+   "importance": 1.5,
+   "asof": "2026-11-12T15:37+05:30",
+   "headline": "Gabriel India Q2 FY27 revenue up about 23%, margins narrower"
+  }
+ ],
+ "PAGEIND": [
+  {
+   "score": -0.2,
+   "importance": 1.0,
+   "asof": "2026-11-12T15:37+05:30",
+   "headline": "Page Industries board met on 12 Nov for Q2 results and interim dividend"
+  }
  ]
 }
