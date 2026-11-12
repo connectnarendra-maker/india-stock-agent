@@ -17,6 +17,12 @@
    "importance": 0.5,
    "asof": "2026-11-06T12:42+05:30",
    "headline": "Shriram Finance among Friday's Sensex laggards, down nearly 3%"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-12T13:37+05:30",
+   "headline": "Shriram Finance climbs about 3% to intraday high near Rs 997"
   }
  ],
  "INFY": [
@@ -68,12 +74,6 @@
   }
  ],
  "HDFCBANK": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-05T12:40+05:30",
-   "headline": "HDFC Bank gains about 2% as banking index rallies"
-  },
   {
    "score": 0.4,
    "importance": 1.0,
@@ -164,12 +164,6 @@
   }
  ],
  "ICICIBANK": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-05T12:40+05:30",
-   "headline": "ICICI Bank up about 3% intraday among top banking gainers"
-  },
   {
    "score": -0.2,
    "importance": 0.5,
@@ -289,6 +283,22 @@
    "importance": 1.5,
    "asof": "2026-11-11T14:37+05:30",
    "headline": "Kalyan Jewellers hits 52-week high after Q2 profit jumps about 64%"
+  }
+ ],
+ "DLF": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-12T13:37+05:30",
+   "headline": "DLF gains about 3% intraday, trading above key moving averages"
+  }
+ ],
+ "BANDHANBNK": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-12T13:37+05:30",
+   "headline": "Bandhan Bank among top banking-sector gainers, up about 3%"
   }
  ]
 }
