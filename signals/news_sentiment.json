@@ -3,12 +3,6 @@
   {
    "score": 0.3,
    "importance": 0.5,
-   "asof": "2026-11-05T10:40+05:30",
-   "headline": "Shriram Finance opens with gap-up, rises over 6% intraday"
-  },
-  {
-   "score": 0.3,
-   "importance": 0.5,
    "asof": "2026-11-05T15:41+05:30",
    "headline": "Shriram Finance named among top Nifty gainers in Thursday's rally"
   },
@@ -161,29 +155,7 @@
    "headline": "TCS climbs over 2% as IT stocks rebound on Friday"
   }
  ],
- "SAMMAANCAP": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-05T10:40+05:30",
-   "headline": "Sammaan Capital jumps over 7% intraday on Thursday"
-  }
- ],
- "PIIND": [
-  {
-   "score": -0.7,
-   "importance": 1.5,
-   "asof": "2026-11-05T10:40+05:30",
-   "headline": "PI Industries Q2 profit falls sharply to about Rs 122 crore on weaker sales"
-  }
- ],
  "IIFL": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-11-05T10:40+05:30",
-   "headline": "IIFL Finance Q2 FY27 consolidated profit nearly doubles to about Rs 805 crore"
-  },
   {
    "score": 0.5,
    "importance": 1.5,
