@@ -23,6 +23,12 @@
    "importance": 0.5,
    "asof": "2026-11-13T10:37+05:30",
    "headline": "Shriram Finance leads Nifty losers in weak opening, down about 2.4%"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-13T11:37+05:30",
+   "headline": "Shriram Finance is the top Nifty loser in early Friday trade"
   }
  ],
  "INFY": [
@@ -73,15 +79,15 @@
    "importance": 0.5,
    "asof": "2026-11-13T10:37+05:30",
    "headline": "HDFC Bank among top early losers as market opens lower"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-13T11:37+05:30",
+   "headline": "HDFC Bank declines about 1.5% as banking index weakens"
   }
  ],
  "M&M": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-06T10:40+05:30",
-   "headline": "M&M up about 5% on Dhanteras as Sensex gains 400 points"
-  },
   {
    "score": 0.3,
    "importance": 0.5,
