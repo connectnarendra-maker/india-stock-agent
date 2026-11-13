@@ -29,6 +29,12 @@
    "importance": 1.0,
    "asof": "2026-11-13T13:38+05:30",
    "headline": "Shriram Finance is top Nifty loser, down about 3% after four-day rise"
+  },
+  {
+   "score": -0.6,
+   "importance": 1.5,
+   "asof": "2026-11-13T16:38+05:30",
+   "headline": "Shriram Finance touches 11-month low after trimming growth outlook; credit costs weigh"
   }
  ],
  "INFY": [
@@ -223,6 +229,12 @@
    "importance": 1.5,
    "asof": "2026-11-13T13:38+05:30",
    "headline": "Vodafone Idea slips about 3% as Q2 loss widens to Rs 5,975 crore"
+  },
+  {
+   "score": -0.5,
+   "importance": 1.5,
+   "asof": "2026-11-13T16:38+05:30",
+   "headline": "Vodafone Idea slips about 3.5% after September-quarter loss widens beyond estimates"
   }
  ],
  "YESBANK": [
