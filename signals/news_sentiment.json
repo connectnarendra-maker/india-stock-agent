@@ -291,6 +291,12 @@
    "importance": 1.5,
    "asof": "2026-11-12T15:37+05:30",
    "headline": "Gabriel India Q2 FY27 revenue up about 23%, margins narrower"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-13T09:36+05:30",
+   "headline": "Gabriel India shares jump sharply on 12 November amid strong momentum"
   }
  ],
  "PAGEIND": [
@@ -305,6 +311,12 @@
    "importance": 1.5,
    "asof": "2026-11-13T06:37+05:30",
    "headline": "Page Industries slides about 13% after September-quarter results"
+  },
+  {
+   "score": -0.6,
+   "importance": 1.5,
+   "asof": "2026-11-13T09:36+05:30",
+   "headline": "Page Industries slides about 13% after Q2 profit falls short of estimates"
   }
  ],
  "TATAPOWER": [
