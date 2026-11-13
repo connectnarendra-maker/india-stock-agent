@@ -11,6 +11,12 @@
    "importance": 0.5,
    "asof": "2026-11-12T13:37+05:30",
    "headline": "Shriram Finance climbs about 3% to intraday high near Rs 997"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-13T06:37+05:30",
+   "headline": "Shriram Finance among top Nifty gainers, up 3.6%"
   }
  ],
  "INFY": [
@@ -105,14 +111,12 @@
    "importance": 1.0,
    "asof": "2026-11-11T17:39+05:30",
    "headline": "M&M tops Nifty gainers, closing up about 5.3% near Rs 3,465"
-  }
- ],
- "DEVYANI": [
+  },
   {
-   "score": 0.3,
+   "score": -0.3,
    "importance": 0.5,
-   "asof": "2026-11-05T17:40+05:30",
-   "headline": "Devyani International climbs about 8% intraday, outpacing its sector"
+   "asof": "2026-11-13T06:37+05:30",
+   "headline": "M&M among top Nifty losers as auto index falls"
   }
  ],
  "SBIN": [
@@ -133,6 +137,12 @@
    "importance": 0.5,
    "asof": "2026-11-11T12:37+05:30",
    "headline": "SBI among top Nifty gainers on November 9"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-13T06:37+05:30",
+   "headline": "SBI gains 2.4% as PSU bank index rises"
   }
  ],
  "TCS": [
@@ -157,14 +167,6 @@
    "importance": 0.5,
    "asof": "2026-11-11T17:39+05:30",
    "headline": "ICICI Bank among top Nifty losers, slipping about 1.1% on rally day"
-  }
- ],
- "CUMMINSIND": [
-  {
-   "score": -0.6,
-   "importance": 1.5,
-   "asof": "2026-11-05T17:40+05:30",
-   "headline": "Cummins India slumps over 10% after weak September-quarter results"
   }
  ],
  "THERMAX": [
@@ -303,6 +305,28 @@
    "importance": 1.0,
    "asof": "2026-11-12T15:37+05:30",
    "headline": "Page Industries board met on 12 Nov for Q2 results and interim dividend"
+  },
+  {
+   "score": -0.6,
+   "importance": 1.5,
+   "asof": "2026-11-13T06:37+05:30",
+   "headline": "Page Industries slides about 13% after September-quarter results"
+  }
+ ],
+ "TATAPOWER": [
+  {
+   "score": 0.4,
+   "importance": 1.5,
+   "asof": "2026-11-13T06:37+05:30",
+   "headline": "Tata Power names Sanjay Banga CEO; Q2 profit up about 49%"
+  }
+ ],
+ "GODREJIND": [
+  {
+   "score": 0.3,
+   "importance": 1.0,
+   "asof": "2026-11-13T06:37+05:30",
+   "headline": "Godrej Industries jumps nearly 12% in Thursday trade"
   }
  ]
 }
