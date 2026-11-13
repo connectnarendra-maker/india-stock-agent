@@ -43,12 +43,6 @@
  ],
  "BHARTIARTL": [
   {
-   "score": 0.5,
-   "importance": 1.5,
-   "asof": "2026-11-06T07:40+05:30",
-   "headline": "Bharti Airtel Q2 FY27 profit up 31% to Rs 8,888 crore; ARPU reaches Rs 271"
-  },
-  {
    "score": 0.3,
    "importance": 0.5,
    "asof": "2026-11-06T09:40+05:30",
@@ -327,6 +321,14 @@
    "importance": 1.0,
    "asof": "2026-11-13T06:37+05:30",
    "headline": "Godrej Industries jumps nearly 12% in Thursday trade"
+  }
+ ],
+ "AEGISLOG": [
+  {
+   "score": -0.1,
+   "importance": 1.0,
+   "asof": "2026-11-13T08:41+05:30",
+   "headline": "Aegis Logistics opens Rs 3,500 crore QIP for debt repayment and operations"
   }
  ]
 }
