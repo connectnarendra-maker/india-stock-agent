@@ -1,12 +1,6 @@
 {
  "SHRIRAMFIN": [
   {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-11-06T12:42+05:30",
-   "headline": "Shriram Finance among Friday's Sensex laggards, down nearly 3%"
-  },
-  {
    "score": 0.3,
    "importance": 0.5,
    "asof": "2026-11-12T13:37+05:30",
@@ -29,6 +23,12 @@
    "importance": 0.5,
    "asof": "2026-11-13T11:37+05:30",
    "headline": "Shriram Finance is the top Nifty loser in early Friday trade"
+  },
+  {
+   "score": -0.3,
+   "importance": 1.0,
+   "asof": "2026-11-13T13:38+05:30",
+   "headline": "Shriram Finance is top Nifty loser, down about 3% after four-day rise"
   }
  ],
  "INFY": [
@@ -65,6 +65,12 @@
    "importance": 0.5,
    "asof": "2026-11-11T12:37+05:30",
    "headline": "Bharti Airtel slipped 0.6% on November 9 to about Rs 2,072"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-13T13:38+05:30",
+   "headline": "Bharti Airtel leads Nifty gainers in a weak market session"
   }
  ],
  "HDFCBANK": [
@@ -145,14 +151,6 @@
    "headline": "SBI gains 2.4% as PSU bank index rises"
   }
  ],
- "TCS": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-06T12:42+05:30",
-   "headline": "TCS climbs over 2% as IT stocks rebound on Friday"
-  }
- ],
  "IIFL": [
   {
    "score": 0.5,
@@ -167,22 +165,6 @@
    "importance": 0.5,
    "asof": "2026-11-11T17:39+05:30",
    "headline": "ICICI Bank among top Nifty losers, slipping about 1.1% on rally day"
-  }
- ],
- "TDPOWERSYS": [
-  {
-   "score": -0.4,
-   "importance": 1.0,
-   "asof": "2026-11-06T12:42+05:30",
-   "headline": "TD Power Systems slides over 12% intraday, extending two-day fall to about 19%"
-  }
- ],
- "APARINDS": [
-  {
-   "score": -0.4,
-   "importance": 1.0,
-   "asof": "2026-11-06T12:42+05:30",
-   "headline": "Apar Industries falls about 6-7% intraday on selling pressure"
   }
  ],
  "FINCABLES": [
@@ -235,6 +217,12 @@
    "importance": 1.5,
    "asof": "2026-11-09T14:38+05:30",
    "headline": "Vodafone Idea slips even as SBI-led debt funding plan advances"
+  },
+  {
+   "score": -0.6,
+   "importance": 1.5,
+   "asof": "2026-11-13T13:38+05:30",
+   "headline": "Vodafone Idea slips about 3% as Q2 loss widens to Rs 5,975 crore"
   }
  ],
  "YESBANK": [
