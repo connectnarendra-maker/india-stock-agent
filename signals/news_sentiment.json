@@ -57,6 +57,12 @@
    "importance": 0.5,
    "asof": "2026-11-13T13:38+05:30",
    "headline": "Bharti Airtel leads Nifty gainers in a weak market session"
+  },
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-11-16T15:37+05:30",
+   "headline": "Bharti Airtel climbs about 3% to near record high as telecom stocks rally"
   }
  ],
  "HDFCBANK": [
@@ -149,12 +155,6 @@
  ],
  "IDEA": [
   {
-   "score": 0.3,
-   "importance": 1.5,
-   "asof": "2026-11-09T14:38+05:30",
-   "headline": "Vodafone Idea slips even as SBI-led debt funding plan advances"
-  },
-  {
    "score": -0.6,
    "importance": 1.5,
    "asof": "2026-11-13T13:38+05:30",
@@ -169,10 +169,10 @@
  ],
  "YESBANK": [
   {
-   "score": -0.2,
-   "importance": 1.0,
-   "asof": "2026-11-09T14:38+05:30",
-   "headline": "Yes Bank eases after five-day rally; AT-1 bond repayment timeline still unclear"
+   "score": 0.1,
+   "importance": 1.5,
+   "asof": "2026-11-16T15:37+05:30",
+   "headline": "YES Bank seeks Supreme Court review of AT-1 bond write-off verdict"
   }
  ],
  "INDIGO": [
