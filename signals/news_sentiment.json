@@ -37,21 +37,7 @@
    "headline": "Shriram Finance touches 11-month low after trimming growth outlook; credit costs weigh"
   }
  ],
- "INFY": [
-  {
-   "score": -0.3,
-   "importance": 0.5,
-   "asof": "2026-11-09T10:37+05:30",
-   "headline": "Infosys among top Nifty losers as IT stocks slide"
-  }
- ],
  "TATASTEEL": [
-  {
-   "score": 0.4,
-   "importance": 1.5,
-   "asof": "2026-11-09T10:37+05:30",
-   "headline": "Tata Steel Q2 FY27 profit rises about 16% on higher revenue"
-  },
   {
    "score": -0.2,
    "importance": 0.5,
@@ -60,12 +46,6 @@
   }
  ],
  "BHARTIARTL": [
-  {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-11-09T10:37+05:30",
-   "headline": "Bharti Airtel among top three Nifty 50 losers on Monday morning"
-  },
   {
    "score": -0.1,
    "importance": 0.5,
@@ -171,30 +151,6 @@
    "importance": 0.5,
    "asof": "2026-11-11T17:39+05:30",
    "headline": "ICICI Bank among top Nifty losers, slipping about 1.1% on rally day"
-  }
- ],
- "FINCABLES": [
-  {
-   "score": 0.1,
-   "importance": 1.0,
-   "asof": "2026-11-09T10:37+05:30",
-   "headline": "Finolex Cables gives back about 4% despite strong Q2 numbers"
-  }
- ],
- "DIVISLAB": [
-  {
-   "score": 0.7,
-   "importance": 1.5,
-   "asof": "2026-11-09T10:37+05:30",
-   "headline": "Divi's Labs hits 52-week high after Q2 profit jumps about 64%"
-  }
- ],
- "GLAND": [
-  {
-   "score": 0.5,
-   "importance": 1.5,
-   "asof": "2026-11-09T10:37+05:30",
-   "headline": "Gland Pharma rises over 6% after Q2 profit climbs 58%"
   }
  ],
  "IDEA": [
@@ -309,6 +265,12 @@
    "importance": 1.5,
    "asof": "2026-11-13T15:37+05:30",
    "headline": "Tata Power slips about 3% from day's high as analysts note Q2 margin pressure"
+  },
+  {
+   "score": 0.3,
+   "importance": 1.0,
+   "asof": "2026-11-16T11:37+05:30",
+   "headline": "Tata Power renewables arm commissions 108 MW wind project in Maharashtra"
   }
  ],
  "GODREJIND": [
@@ -341,6 +303,22 @@
    "importance": 1.5,
    "asof": "2026-11-13T15:37+05:30",
    "headline": "Amber Enterprises jumps about 11% after Q2 results despite UBS margin concerns"
+  }
+ ],
+ "KAYNES": [
+  {
+   "score": -0.8,
+   "importance": 1.5,
+   "asof": "2026-11-16T11:37+05:30",
+   "headline": "Kaynes Technology slumps about 15% to 52-week low after Q2 profit drop"
+  }
+ ],
+ "TMPV": [
+  {
+   "score": -0.7,
+   "importance": 1.5,
+   "asof": "2026-11-16T11:37+05:30",
+   "headline": "Tata Motors Passenger Vehicles falls about 9% on Q2 net loss"
   }
  ]
 }
