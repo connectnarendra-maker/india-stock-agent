@@ -171,6 +171,12 @@
    "importance": 1.5,
    "asof": "2026-11-13T16:38+05:30",
    "headline": "Vodafone Idea slips about 3.5% after September-quarter loss widens beyond estimates"
+  },
+  {
+   "score": -0.2,
+   "importance": 1.0,
+   "asof": "2026-11-17T14:37+05:30",
+   "headline": "Vodafone Idea slips for third session as bank funding package timing stays uncertain"
   }
  ],
  "YESBANK": [
@@ -185,6 +191,12 @@
    "importance": 1.5,
    "asof": "2026-11-17T09:38+05:30",
    "headline": "RBI seeks Supreme Court review of Yes Bank AT-1 bond ruling"
+  },
+  {
+   "score": -0.3,
+   "importance": 1.5,
+   "asof": "2026-11-17T14:37+05:30",
+   "headline": "YES Bank dips as RBI and bank seek review of AT-1 bond ruling"
   }
  ],
  "INDIGO": [
@@ -347,6 +359,14 @@
    "importance": 1.5,
    "asof": "2026-11-17T10:37+05:30",
    "headline": "Deepak Fertilisers Q2 profit up about 85% with sharply better margins"
+  }
+ ],
+ "EMBDL": [
+  {
+   "score": -0.1,
+   "importance": 1.0,
+   "asof": "2026-11-17T14:37+05:30",
+   "headline": "Embassy Developments launches Rs 1,400 crore Bengaluru luxury project; shares lower"
   }
  ]
 }
