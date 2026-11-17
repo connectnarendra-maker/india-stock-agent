@@ -43,6 +43,12 @@
    "importance": 0.5,
    "asof": "2026-11-11T12:37+05:30",
    "headline": "Tata Steel among top Nifty losers on November 9, down over 2%"
+  },
+  {
+   "score": -0.4,
+   "importance": 1.5,
+   "asof": "2026-11-17T09:38+05:30",
+   "headline": "EU levies 9.5% duty on Indian steel; Tata Steel in focus"
   }
  ],
  "BHARTIARTL": [
@@ -173,6 +179,12 @@
    "importance": 1.5,
    "asof": "2026-11-16T15:37+05:30",
    "headline": "YES Bank seeks Supreme Court review of AT-1 bond write-off verdict"
+  },
+  {
+   "score": 0.2,
+   "importance": 1.5,
+   "asof": "2026-11-17T09:38+05:30",
+   "headline": "RBI seeks Supreme Court review of Yes Bank AT-1 bond ruling"
   }
  ],
  "INDIGO": [
@@ -319,6 +331,14 @@
    "importance": 1.0,
    "asof": "2026-11-17T06:36+05:30",
    "headline": "Tata Motors Passenger Vehicles among Nov 16's biggest losers, down about 9%"
+  }
+ ],
+ "HINDZINC": [
+  {
+   "score": 0.4,
+   "importance": 1.5,
+   "asof": "2026-11-17T09:38+05:30",
+   "headline": "Hindustan Zinc plans Rs 80,000 cr expansion to nearly double capacity"
   }
  ]
 }
