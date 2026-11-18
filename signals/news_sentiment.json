@@ -93,12 +93,6 @@
  ],
  "M&M": [
   {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-11-11T14:37+05:30",
-   "headline": "M&M shares climb about 5% as Q2 FY27 profit grows 25%"
-  },
-  {
    "score": 0.5,
    "importance": 1.0,
    "asof": "2026-11-11T17:39+05:30",
@@ -179,14 +173,6 @@
    "importance": 1.5,
    "asof": "2026-11-17T14:37+05:30",
    "headline": "YES Bank dips as RBI and bank seek review of AT-1 bond ruling"
-  }
- ],
- "KALYANKJIL": [
-  {
-   "score": 0.7,
-   "importance": 1.5,
-   "asof": "2026-11-11T14:37+05:30",
-   "headline": "Kalyan Jewellers hits 52-week high after Q2 profit jumps about 64%"
   }
  ],
  "DLF": [
@@ -367,6 +353,12 @@
    "importance": 1.0,
    "asof": "2026-11-18T13:36+05:30",
    "headline": "Metal stocks drag as Sensex falls about 600 points to day's low"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-18T14:37+05:30",
+   "headline": "Vedanta touches intraday low, down about 3% amid metals selloff"
   }
  ]
 }
