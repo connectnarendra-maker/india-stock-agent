@@ -55,6 +55,12 @@
    "importance": 1.0,
    "asof": "2026-11-17T17:38+05:30",
    "headline": "Tata Steel eyes 50 MT India capacity, weighs new Maharashtra plant"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-18T11:38+05:30",
+   "headline": "Tata Steel among early Sensex laggards as metal stocks weaken"
   }
  ],
  "BHARTIARTL": [
@@ -85,12 +91,6 @@
  ],
  "HDFCBANK": [
   {
-   "score": 0.4,
-   "importance": 1.0,
-   "asof": "2026-11-11T11:37+05:30",
-   "headline": "HDFC Bank shares reach three-month high amid banking rally"
-  },
-  {
    "score": -0.2,
    "importance": 0.5,
    "asof": "2026-11-13T10:37+05:30",
@@ -104,18 +104,6 @@
   }
  ],
  "M&M": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-11T10:37+05:30",
-   "headline": "M&M among early gainers as markets rally on softer crude"
-  },
-  {
-   "score": 0.4,
-   "importance": 0.5,
-   "asof": "2026-11-11T11:37+05:30",
-   "headline": "M&M among top Sensex gainers in broad-based opening rally"
-  },
   {
    "score": 0.6,
    "importance": 1.5,
@@ -137,12 +125,6 @@
  ],
  "SBIN": [
   {
-   "score": 0.4,
-   "importance": 0.5,
-   "asof": "2026-11-11T11:37+05:30",
-   "headline": "SBI features among leading Sensex gainers as bank stocks rally"
-  },
-  {
    "score": 0.2,
    "importance": 0.5,
    "asof": "2026-11-11T12:37+05:30",
@@ -157,12 +139,6 @@
  ],
  "IIFL": [
   {
-   "score": 0.5,
-   "importance": 1.5,
-   "asof": "2026-11-11T11:37+05:30",
-   "headline": "IIFL Finance climbs as brokerage backs Blackstone stake purchase"
-  },
-  {
    "score": 0.3,
    "importance": 1.5,
    "asof": "2026-11-18T10:36+05:30",
@@ -175,6 +151,12 @@
    "importance": 0.5,
    "asof": "2026-11-11T17:39+05:30",
    "headline": "ICICI Bank among top Nifty losers, slipping about 1.1% on rally day"
+  },
+  {
+   "score": 0.2,
+   "importance": 0.5,
+   "asof": "2026-11-18T11:38+05:30",
+   "headline": "ICICI Bank among few Sensex gainers in weak early session"
   }
  ],
  "IDEA": [
@@ -217,21 +199,7 @@
    "headline": "YES Bank dips as RBI and bank seek review of AT-1 bond ruling"
   }
  ],
- "INDIGO": [
-  {
-   "score": 0.4,
-   "importance": 0.5,
-   "asof": "2026-11-11T10:37+05:30",
-   "headline": "IndiGo leads early gainers, up about 5% as crude oil eases"
-  }
- ],
  "KALYANKJIL": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-11-11T11:37+05:30",
-   "headline": "Kalyan Jewellers jumps about 10% after September-quarter results"
-  },
   {
    "score": 0.7,
    "importance": 1.5,
