@@ -39,12 +39,6 @@
  ],
  "TATASTEEL": [
   {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-11-11T12:37+05:30",
-   "headline": "Tata Steel among top Nifty losers on November 9, down over 2%"
-  },
-  {
    "score": -0.4,
    "importance": 1.5,
    "asof": "2026-11-17T09:38+05:30",
@@ -64,12 +58,6 @@
   }
  ],
  "BHARTIARTL": [
-  {
-   "score": -0.1,
-   "importance": 0.5,
-   "asof": "2026-11-11T12:37+05:30",
-   "headline": "Bharti Airtel slipped 0.6% on November 9 to about Rs 2,072"
-  },
   {
    "score": 0.3,
    "importance": 0.5,
@@ -124,12 +112,6 @@
   }
  ],
  "SBIN": [
-  {
-   "score": 0.2,
-   "importance": 0.5,
-   "asof": "2026-11-11T12:37+05:30",
-   "headline": "SBI among top Nifty gainers on November 9"
-  },
   {
    "score": 0.3,
    "importance": 0.5,
