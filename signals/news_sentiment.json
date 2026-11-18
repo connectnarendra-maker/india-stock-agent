@@ -111,6 +111,12 @@
    "importance": 0.5,
    "asof": "2026-11-13T06:37+05:30",
    "headline": "SBI gains 2.4% as PSU bank index rises"
+  },
+  {
+   "score": 0.2,
+   "importance": 0.5,
+   "asof": "2026-11-18T17:38+05:30",
+   "headline": "SBI among top Nifty gainers on a weak market day"
   }
  ],
  "IIFL": [
@@ -359,6 +365,44 @@
    "importance": 0.5,
    "asof": "2026-11-18T14:37+05:30",
    "headline": "Vedanta touches intraday low, down about 3% amid metals selloff"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-18T17:38+05:30",
+   "headline": "Metal stocks slide as commodities weaken and dollar strengthens"
+  }
+ ],
+ "DEVYANI": [
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-18T17:38+05:30",
+   "headline": "Devyani International among top Smallcap 100 losers"
+  }
+ ],
+ "CREDITACC": [
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-18T17:38+05:30",
+   "headline": "CreditAccess Grameen leads Smallcap 100 decliners"
+  }
+ ],
+ "URBANCO": [
+  {
+   "score": 0.2,
+   "importance": 0.5,
+   "asof": "2026-11-18T17:38+05:30",
+   "headline": "Urban Company tops Smallcap 100 gainers"
+  }
+ ],
+ "HFCL": [
+  {
+   "score": 0.2,
+   "importance": 0.5,
+   "asof": "2026-11-18T17:38+05:30",
+   "headline": "Telecom equipment makers HFCL and Sterlite Tech rally about 5%"
   }
  ]
 }
