@@ -103,6 +103,12 @@
    "importance": 1.0,
    "asof": "2026-11-19T10:37+05:30",
    "headline": "Mahindra & Mahindra gains over 3% in broad morning auto rally"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-19T11:36+05:30",
+   "headline": "Auto stocks rally up to 5% with M&M among gainers"
   }
  ],
  "SBIN": [
@@ -405,6 +411,12 @@
    "importance": 1.0,
    "asof": "2026-11-19T10:37+05:30",
    "headline": "Maruti Suzuki leads auto gainers with over 5% rise"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-19T11:36+05:30",
+   "headline": "Maruti leads broad auto sector rally on Thursday"
   }
  ],
  "PAYTM": [
@@ -413,6 +425,12 @@
    "importance": 1.5,
    "asof": "2026-11-19T10:37+05:30",
    "headline": "Paytm falls up to 7% on report of fee for merchant UPI payments"
+  },
+  {
+   "score": -0.6,
+   "importance": 1.5,
+   "asof": "2026-11-19T11:36+05:30",
+   "headline": "Paytm slides on report UPI merchant charges may be delayed past 2027"
   }
  ],
  "LTFOODS": [
@@ -421,6 +439,14 @@
    "importance": 1.5,
    "asof": "2026-11-19T10:37+05:30",
    "headline": "LT Foods jumps about 8% on plan to acquire MK Foods"
+  }
+ ],
+ "IREDA": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-19T11:36+05:30",
+   "headline": "IREDA jumps about 6% as PSU stocks gain"
   }
  ]
 }
