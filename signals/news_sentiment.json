@@ -103,6 +103,12 @@
    "importance": 1.0,
    "asof": "2026-11-19T11:36+05:30",
    "headline": "Auto stocks rally up to 5% with M&M among gainers"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-19T17:37+05:30",
+   "headline": "Mahindra & Mahindra gains over 4% as Nifty Auto rallies 4.4%"
   }
  ],
  "SBIN": [
@@ -443,6 +449,14 @@
    "importance": 0.5,
    "asof": "2026-11-19T14:37+05:30",
    "headline": "PG Electroplast gains about 5% as copper falls"
+  }
+ ],
+ "TCS": [
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-19T17:37+05:30",
+   "headline": "TCS slips about 1.4% as IT stocks fall on Fed rate-hike worries"
   }
  ]
 }
