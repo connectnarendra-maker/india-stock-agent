@@ -3,12 +3,6 @@
   {
    "score": 0.3,
    "importance": 0.5,
-   "asof": "2026-11-12T13:37+05:30",
-   "headline": "Shriram Finance climbs about 3% to intraday high near Rs 997"
-  },
-  {
-   "score": 0.3,
-   "importance": 0.5,
    "asof": "2026-11-13T06:37+05:30",
    "headline": "Shriram Finance among top Nifty gainers, up 3.6%"
   },
@@ -179,22 +173,6 @@
    "importance": 1.5,
    "asof": "2026-11-17T14:37+05:30",
    "headline": "YES Bank dips as RBI and bank seek review of AT-1 bond ruling"
-  }
- ],
- "DLF": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-12T13:37+05:30",
-   "headline": "DLF gains about 3% intraday, trading above key moving averages"
-  }
- ],
- "BANDHANBNK": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-12T13:37+05:30",
-   "headline": "Bandhan Bank among top banking-sector gainers, up about 3%"
   }
  ],
  "GABRIEL": [
