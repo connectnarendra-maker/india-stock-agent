@@ -97,6 +97,12 @@
    "importance": 0.5,
    "asof": "2026-11-13T06:37+05:30",
    "headline": "M&M among top Nifty losers as auto index falls"
+  },
+  {
+   "score": 0.3,
+   "importance": 1.0,
+   "asof": "2026-11-19T10:37+05:30",
+   "headline": "Mahindra & Mahindra gains over 3% in broad morning auto rally"
   }
  ],
  "SBIN": [
@@ -391,6 +397,30 @@
    "importance": 0.5,
    "asof": "2026-11-18T17:38+05:30",
    "headline": "Telecom equipment makers HFCL and Sterlite Tech rally about 5%"
+  }
+ ],
+ "MARUTI": [
+  {
+   "score": 0.3,
+   "importance": 1.0,
+   "asof": "2026-11-19T10:37+05:30",
+   "headline": "Maruti Suzuki leads auto gainers with over 5% rise"
+  }
+ ],
+ "PAYTM": [
+  {
+   "score": -0.5,
+   "importance": 1.5,
+   "asof": "2026-11-19T10:37+05:30",
+   "headline": "Paytm falls up to 7% on report of fee for merchant UPI payments"
+  }
+ ],
+ "LTFOODS": [
+  {
+   "score": 0.5,
+   "importance": 1.5,
+   "asof": "2026-11-19T10:37+05:30",
+   "headline": "LT Foods jumps about 8% on plan to acquire MK Foods"
   }
  ]
 }
