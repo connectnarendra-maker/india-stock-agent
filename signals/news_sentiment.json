@@ -93,12 +93,6 @@
  ],
  "M&M": [
   {
-   "score": 0.5,
-   "importance": 1.0,
-   "asof": "2026-11-11T17:39+05:30",
-   "headline": "M&M tops Nifty gainers, closing up about 5.3% near Rs 3,465"
-  },
-  {
    "score": -0.3,
    "importance": 0.5,
    "asof": "2026-11-13T06:37+05:30",
@@ -128,12 +122,6 @@
   }
  ],
  "ICICIBANK": [
-  {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-11-11T17:39+05:30",
-   "headline": "ICICI Bank among top Nifty losers, slipping about 1.1% on rally day"
-  },
   {
    "score": 0.2,
    "importance": 0.5,
