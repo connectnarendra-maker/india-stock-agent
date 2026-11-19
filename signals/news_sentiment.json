@@ -259,6 +259,12 @@
    "importance": 1.5,
    "asof": "2026-11-13T15:37+05:30",
    "headline": "Amber Enterprises jumps about 11% after Q2 results despite UBS margin concerns"
+  },
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-11-19T14:37+05:30",
+   "headline": "Amber Enterprises climbs over 6% in consumer durables rally"
   }
  ],
  "KAYNES": [
@@ -425,6 +431,30 @@
    "importance": 0.5,
    "asof": "2026-11-19T11:36+05:30",
    "headline": "IREDA jumps about 6% as PSU stocks gain"
+  }
+ ],
+ "VOLTAS": [
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-11-19T14:37+05:30",
+   "headline": "Voltas jumps about 8% as falling copper prices lift AC makers"
+  }
+ ],
+ "BLUESTARCO": [
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-11-19T14:37+05:30",
+   "headline": "Blue Star rises over 6% on lower copper input costs"
+  }
+ ],
+ "PGEL": [
+  {
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-19T14:37+05:30",
+   "headline": "PG Electroplast gains about 5% as copper falls"
   }
  ]
 }
