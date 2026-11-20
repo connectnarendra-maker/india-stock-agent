@@ -2,12 +2,6 @@
  "SHRIRAMFIN": [
   {
    "score": -0.3,
-   "importance": 0.5,
-   "asof": "2026-11-13T11:37+05:30",
-   "headline": "Shriram Finance is the top Nifty loser in early Friday trade"
-  },
-  {
-   "score": -0.3,
    "importance": 1.0,
    "asof": "2026-11-13T13:38+05:30",
    "headline": "Shriram Finance is top Nifty loser, down about 3% after four-day rise"
@@ -63,14 +57,6 @@
    "importance": 0.5,
    "asof": "2026-11-18T10:36+05:30",
    "headline": "Bharti Airtel among top Sensex gainers in early trade"
-  }
- ],
- "HDFCBANK": [
-  {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-11-13T11:37+05:30",
-   "headline": "HDFC Bank declines about 1.5% as banking index weakens"
   }
  ],
  "M&M": [
@@ -393,6 +379,12 @@
    "importance": 0.5,
    "asof": "2026-11-19T17:37+05:30",
    "headline": "TCS slips about 1.4% as IT stocks fall on Fed rate-hike worries"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-20T11:37+05:30",
+   "headline": "TCS among Nifty gainers as IT stocks rise while indices recover from early slide"
   }
  ]
 }
