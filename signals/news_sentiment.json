@@ -386,5 +386,21 @@
    "asof": "2026-11-20T11:37+05:30",
    "headline": "TCS among Nifty gainers as IT stocks rise while indices recover from early slide"
   }
+ ],
+ "INDUSINDBK": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-20T12:37+05:30",
+   "headline": "IndusInd Bank tops Nifty Bank gainers, up about 6% intraday"
+  }
+ ],
+ "HDFCBANK": [
+  {
+   "score": 0.15,
+   "importance": 0.5,
+   "asof": "2026-11-20T12:37+05:30",
+   "headline": "HDFC Bank among Nifty Bank gainers in Friday morning trade"
+  }
  ]
 }
