@@ -1,12 +1,6 @@
 {
  "SHRIRAMFIN": [
   {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-13T06:37+05:30",
-   "headline": "Shriram Finance among top Nifty gainers, up 3.6%"
-  },
-  {
    "score": -0.3,
    "importance": 0.5,
    "asof": "2026-11-13T10:37+05:30",
@@ -87,12 +81,6 @@
  ],
  "M&M": [
   {
-   "score": -0.3,
-   "importance": 0.5,
-   "asof": "2026-11-13T06:37+05:30",
-   "headline": "M&M among top Nifty losers as auto index falls"
-  },
-  {
    "score": 0.3,
    "importance": 1.0,
    "asof": "2026-11-19T10:37+05:30",
@@ -112,12 +100,6 @@
   }
  ],
  "SBIN": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-13T06:37+05:30",
-   "headline": "SBI gains 2.4% as PSU bank index rises"
-  },
   {
    "score": 0.2,
    "importance": 0.5,
@@ -193,23 +175,11 @@
   {
    "score": -0.6,
    "importance": 1.5,
-   "asof": "2026-11-13T06:37+05:30",
-   "headline": "Page Industries slides about 13% after September-quarter results"
-  },
-  {
-   "score": -0.6,
-   "importance": 1.5,
    "asof": "2026-11-13T09:36+05:30",
    "headline": "Page Industries slides about 13% after Q2 profit falls short of estimates"
   }
  ],
  "TATAPOWER": [
-  {
-   "score": 0.4,
-   "importance": 1.5,
-   "asof": "2026-11-13T06:37+05:30",
-   "headline": "Tata Power names Sanjay Banga CEO; Q2 profit up about 49%"
-  },
   {
    "score": -0.4,
    "importance": 1.5,
@@ -221,14 +191,6 @@
    "importance": 1.0,
    "asof": "2026-11-16T11:37+05:30",
    "headline": "Tata Power renewables arm commissions 108 MW wind project in Maharashtra"
-  }
- ],
- "GODREJIND": [
-  {
-   "score": 0.3,
-   "importance": 1.0,
-   "asof": "2026-11-13T06:37+05:30",
-   "headline": "Godrej Industries jumps nearly 12% in Thursday trade"
   }
  ],
  "AEGISLOG": [
