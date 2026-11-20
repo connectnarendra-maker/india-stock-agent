@@ -1,12 +1,6 @@
 {
  "SHRIRAMFIN": [
   {
-   "score": -0.3,
-   "importance": 1.0,
-   "asof": "2026-11-13T13:38+05:30",
-   "headline": "Shriram Finance is top Nifty loser, down about 3% after four-day rise"
-  },
-  {
    "score": -0.6,
    "importance": 1.5,
    "asof": "2026-11-13T16:38+05:30",
@@ -40,12 +34,6 @@
   }
  ],
  "BHARTIARTL": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-13T13:38+05:30",
-   "headline": "Bharti Airtel leads Nifty gainers in a weak market session"
-  },
   {
    "score": 0.5,
    "importance": 1.0,
@@ -104,12 +92,6 @@
   }
  ],
  "IDEA": [
-  {
-   "score": -0.6,
-   "importance": 1.5,
-   "asof": "2026-11-13T13:38+05:30",
-   "headline": "Vodafone Idea slips about 3% as Q2 loss widens to Rs 5,975 crore"
-  },
   {
    "score": -0.5,
    "importance": 1.5,
