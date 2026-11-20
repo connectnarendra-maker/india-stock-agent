@@ -3,12 +3,6 @@
   {
    "score": -0.3,
    "importance": 0.5,
-   "asof": "2026-11-13T10:37+05:30",
-   "headline": "Shriram Finance leads Nifty losers in weak opening, down about 2.4%"
-  },
-  {
-   "score": -0.3,
-   "importance": 0.5,
    "asof": "2026-11-13T11:37+05:30",
    "headline": "Shriram Finance is the top Nifty loser in early Friday trade"
   },
@@ -72,12 +66,6 @@
   }
  ],
  "HDFCBANK": [
-  {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-11-13T10:37+05:30",
-   "headline": "HDFC Bank among top early losers as market opens lower"
-  },
   {
    "score": -0.2,
    "importance": 0.5,
@@ -181,14 +169,6 @@
    "importance": 1.0,
    "asof": "2026-11-16T11:37+05:30",
    "headline": "Tata Power renewables arm commissions 108 MW wind project in Maharashtra"
-  }
- ],
- "POWERINDIA": [
-  {
-   "score": 0.5,
-   "importance": 1.5,
-   "asof": "2026-11-13T10:37+05:30",
-   "headline": "Hitachi Energy India jumps over 8% after Q2 revenue rises 63.5%"
   }
  ],
  "AMBER": [
@@ -399,6 +379,12 @@
    "importance": 0.5,
    "asof": "2026-11-19T14:37+05:30",
    "headline": "PG Electroplast gains about 5% as copper falls"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-20T10:37+05:30",
+   "headline": "AC makers including PG Electroplast rally as copper hits seven-month low"
   }
  ],
  "TCS": [
