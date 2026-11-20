@@ -1,12 +1,4 @@
 {
- "SHRIRAMFIN": [
-  {
-   "score": -0.6,
-   "importance": 1.5,
-   "asof": "2026-11-13T16:38+05:30",
-   "headline": "Shriram Finance touches 11-month low after trimming growth outlook; credit costs weigh"
-  }
- ],
  "TATASTEEL": [
   {
    "score": -0.4,
@@ -92,12 +84,6 @@
   }
  ],
  "IDEA": [
-  {
-   "score": -0.5,
-   "importance": 1.5,
-   "asof": "2026-11-13T16:38+05:30",
-   "headline": "Vodafone Idea slips about 3.5% after September-quarter loss widens beyond estimates"
-  },
   {
    "score": -0.2,
    "importance": 1.0,
@@ -369,6 +355,12 @@
    "importance": 0.5,
    "asof": "2026-11-20T15:37+05:30",
    "headline": "IndusInd Bank gaps up about 8% with sharp rise in derivatives open interest"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-20T17:37+05:30",
+   "headline": "IndusInd Bank climbs about 8% on heavy volumes, nearing 52-week high"
   }
  ],
  "HDFCBANK": [
@@ -383,6 +375,14 @@
    "importance": 0.5,
    "asof": "2026-11-20T15:37+05:30",
    "headline": "HDFC Bank rises over 3% intraday, trading above key moving averages"
+  }
+ ],
+ "CUB": [
+  {
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-20T17:37+05:30",
+   "headline": "City Union Bank touches record high after 7% intraday jump"
   }
  ]
 }
