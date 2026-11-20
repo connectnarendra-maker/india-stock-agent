@@ -127,12 +127,6 @@
  ],
  "TATAPOWER": [
   {
-   "score": -0.4,
-   "importance": 1.5,
-   "asof": "2026-11-13T15:37+05:30",
-   "headline": "Tata Power slips about 3% from day's high as analysts note Q2 margin pressure"
-  },
-  {
    "score": 0.3,
    "importance": 1.0,
    "asof": "2026-11-16T11:37+05:30",
@@ -140,12 +134,6 @@
   }
  ],
  "AMBER": [
-  {
-   "score": 0.4,
-   "importance": 1.5,
-   "asof": "2026-11-13T15:37+05:30",
-   "headline": "Amber Enterprises jumps about 11% after Q2 results despite UBS margin concerns"
-  },
   {
    "score": 0.5,
    "importance": 1.0,
@@ -375,6 +363,12 @@
    "importance": 0.5,
    "asof": "2026-11-20T12:37+05:30",
    "headline": "IndusInd Bank tops Nifty Bank gainers, up about 6% intraday"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-20T15:37+05:30",
+   "headline": "IndusInd Bank gaps up about 8% with sharp rise in derivatives open interest"
   }
  ],
  "HDFCBANK": [
@@ -383,6 +377,12 @@
    "importance": 0.5,
    "asof": "2026-11-20T12:37+05:30",
    "headline": "HDFC Bank among Nifty Bank gainers in Friday morning trade"
+  },
+  {
+   "score": 0.2,
+   "importance": 0.5,
+   "asof": "2026-11-20T15:37+05:30",
+   "headline": "HDFC Bank rises over 3% intraday, trading above key moving averages"
   }
  ]
 }
