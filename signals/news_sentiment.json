@@ -71,6 +71,12 @@
    "importance": 0.5,
    "asof": "2026-11-18T17:38+05:30",
    "headline": "SBI among top Nifty gainers on a weak market day"
+  },
+  {
+   "score": -0.3,
+   "importance": 1.0,
+   "asof": "2026-11-23T12:38+05:30",
+   "headline": "PSU bank shares, including SBI, slide up to 5% after recent rally"
   }
  ],
  "IIFL": [
@@ -115,14 +121,12 @@
    "importance": 1.5,
    "asof": "2026-11-17T14:37+05:30",
    "headline": "YES Bank dips as RBI and bank seek review of AT-1 bond ruling"
-  }
- ],
- "TATAPOWER": [
+  },
   {
-   "score": 0.3,
-   "importance": 1.0,
-   "asof": "2026-11-16T11:37+05:30",
-   "headline": "Tata Power renewables arm commissions 108 MW wind project in Maharashtra"
+   "score": 0.1,
+   "importance": 0.5,
+   "asof": "2026-11-23T12:38+05:30",
+   "headline": "Yes Bank the lone Nifty Bank gainer during Monday's bank selloff"
   }
  ],
  "AMBER": [
@@ -133,21 +137,7 @@
    "headline": "Amber Enterprises climbs over 6% in consumer durables rally"
   }
  ],
- "KAYNES": [
-  {
-   "score": -0.8,
-   "importance": 1.5,
-   "asof": "2026-11-16T11:37+05:30",
-   "headline": "Kaynes Technology slumps about 15% to 52-week low after Q2 profit drop"
-  }
- ],
  "TMPV": [
-  {
-   "score": -0.7,
-   "importance": 1.5,
-   "asof": "2026-11-16T11:37+05:30",
-   "headline": "Tata Motors Passenger Vehicles falls about 9% on Q2 net loss"
-  },
   {
    "score": -0.5,
    "importance": 1.0,
