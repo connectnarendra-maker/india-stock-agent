@@ -23,6 +23,12 @@
    "importance": 0.5,
    "asof": "2026-11-20T09:37+05:30",
    "headline": "Tata Steel among top Nifty losers at open as metals slip"
+  },
+  {
+   "score": -0.4,
+   "importance": 2.0,
+   "asof": "2026-11-23T10:37+05:30",
+   "headline": "Tata Steel agrees to buy about $1.67 billion stake in APL Apollo Tubes"
   }
  ],
  "BHARTIARTL": [
@@ -341,6 +347,12 @@
    "importance": 0.5,
    "asof": "2026-11-20T11:37+05:30",
    "headline": "TCS among Nifty gainers as IT stocks rise while indices recover from early slide"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-23T10:37+05:30",
+   "headline": "TCS leads Indian IT gains despite global AI-driven tech selloff"
   }
  ],
  "INDUSINDBK": [
@@ -383,6 +395,14 @@
    "importance": 0.5,
    "asof": "2026-11-20T17:37+05:30",
    "headline": "City Union Bank touches record high after 7% intraday jump"
+  }
+ ],
+ "APLAPOLLO": [
+  {
+   "score": -0.6,
+   "importance": 2.0,
+   "asof": "2026-11-23T10:37+05:30",
+   "headline": "APL Apollo Tubes slides about 14% after Tata Steel stake deal"
   }
  ]
 }
