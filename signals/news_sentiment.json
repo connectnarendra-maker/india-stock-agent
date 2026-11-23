@@ -33,12 +33,6 @@
  ],
  "BHARTIARTL": [
   {
-   "score": 0.5,
-   "importance": 1.0,
-   "asof": "2026-11-16T15:37+05:30",
-   "headline": "Bharti Airtel climbs about 3% to near record high as telecom stocks rally"
-  },
-  {
    "score": 0.1,
    "importance": 0.5,
    "asof": "2026-11-18T10:36+05:30",
@@ -104,12 +98,6 @@
   }
  ],
  "YESBANK": [
-  {
-   "score": 0.1,
-   "importance": 1.5,
-   "asof": "2026-11-16T15:37+05:30",
-   "headline": "YES Bank seeks Supreme Court review of AT-1 bond write-off verdict"
-  },
   {
    "score": 0.2,
    "importance": 1.5,
