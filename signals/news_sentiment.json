@@ -1,12 +1,6 @@
 {
  "TATASTEEL": [
   {
-   "score": -0.4,
-   "importance": 1.5,
-   "asof": "2026-11-17T09:38+05:30",
-   "headline": "EU levies 9.5% duty on Indian steel; Tata Steel in focus"
-  },
-  {
    "score": 0.3,
    "importance": 1.0,
    "asof": "2026-11-17T17:38+05:30",
@@ -99,12 +93,6 @@
  ],
  "YESBANK": [
   {
-   "score": 0.2,
-   "importance": 1.5,
-   "asof": "2026-11-17T09:38+05:30",
-   "headline": "RBI seeks Supreme Court review of Yes Bank AT-1 bond ruling"
-  },
-  {
    "score": -0.3,
    "importance": 1.5,
    "asof": "2026-11-17T14:37+05:30",
@@ -123,14 +111,6 @@
    "importance": 1.0,
    "asof": "2026-11-19T14:37+05:30",
    "headline": "Amber Enterprises climbs over 6% in consumer durables rally"
-  }
- ],
- "HINDZINC": [
-  {
-   "score": 0.4,
-   "importance": 1.5,
-   "asof": "2026-11-17T09:38+05:30",
-   "headline": "Hindustan Zinc plans Rs 80,000 cr expansion to nearly double capacity"
   }
  ],
  "DEEPAKFERT": [
