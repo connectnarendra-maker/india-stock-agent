@@ -89,21 +89,7 @@
    "headline": "ICICI Bank slips 3.3% Monday, pulling back from its 52-week high"
   }
  ],
- "IDEA": [
-  {
-   "score": -0.2,
-   "importance": 1.0,
-   "asof": "2026-11-17T14:37+05:30",
-   "headline": "Vodafone Idea slips for third session as bank funding package timing stays uncertain"
-  }
- ],
  "YESBANK": [
-  {
-   "score": -0.3,
-   "importance": 1.5,
-   "asof": "2026-11-17T14:37+05:30",
-   "headline": "YES Bank dips as RBI and bank seek review of AT-1 bond ruling"
-  },
   {
    "score": 0.1,
    "importance": 0.5,
@@ -117,22 +103,6 @@
    "importance": 1.0,
    "asof": "2026-11-19T14:37+05:30",
    "headline": "Amber Enterprises climbs over 6% in consumer durables rally"
-  }
- ],
- "EMBDL": [
-  {
-   "score": -0.1,
-   "importance": 1.0,
-   "asof": "2026-11-17T14:37+05:30",
-   "headline": "Embassy Developments launches Rs 1,400 crore Bengaluru luxury project; shares lower"
-  }
- ],
- "FIRSTCRY": [
-  {
-   "score": 0.6,
-   "importance": 1.5,
-   "asof": "2026-11-17T15:37+05:30",
-   "headline": "FirstCry parent jumps about 13% after Q2 loss narrows sharply"
   }
  ],
  "SAMMAANCAP": [
