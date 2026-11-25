@@ -31,14 +31,6 @@
    "headline": "Analysts stay constructive on Tata Steel while flagging APL Apollo deal risks"
   }
  ],
- "BHARTIARTL": [
-  {
-   "score": 0.1,
-   "importance": 0.5,
-   "asof": "2026-11-18T10:36+05:30",
-   "headline": "Bharti Airtel among top Sensex gainers in early trade"
-  }
- ],
  "M&M": [
   {
    "score": 0.3,
@@ -71,14 +63,6 @@
    "importance": 1.0,
    "asof": "2026-11-23T12:38+05:30",
    "headline": "PSU bank shares, including SBI, slide up to 5% after recent rally"
-  }
- ],
- "IIFL": [
-  {
-   "score": 0.3,
-   "importance": 1.5,
-   "asof": "2026-11-18T10:36+05:30",
-   "headline": "IIFL Finance jumps over 6% as Fairfax exits 13% stake via block trade"
   }
  ],
  "ICICIBANK": [
@@ -115,14 +99,6 @@
    "importance": 1.0,
    "asof": "2026-11-19T14:37+05:30",
    "headline": "Amber Enterprises climbs over 6% in consumer durables rally"
-  }
- ],
- "SIGNATURE": [
-  {
-   "score": 0.4,
-   "importance": 1.5,
-   "asof": "2026-11-18T09:37+05:30",
-   "headline": "Signatureglobal-led consortium wins 474-acre Raigad land parcel bid"
   }
  ],
  "VEDL": [
