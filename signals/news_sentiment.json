@@ -3,12 +3,6 @@
   {
    "score": -0.2,
    "importance": 0.5,
-   "asof": "2026-11-18T11:38+05:30",
-   "headline": "Tata Steel among early Sensex laggards as metal stocks weaken"
-  },
-  {
-   "score": -0.2,
-   "importance": 0.5,
    "asof": "2026-11-20T09:37+05:30",
    "headline": "Tata Steel among top Nifty losers at open as metals slip"
   },
@@ -67,12 +61,6 @@
  ],
  "ICICIBANK": [
   {
-   "score": 0.2,
-   "importance": 0.5,
-   "asof": "2026-11-18T11:38+05:30",
-   "headline": "ICICI Bank among few Sensex gainers in weak early session"
-  },
-  {
    "score": -0.4,
    "importance": 1.0,
    "asof": "2026-11-24T14:36+05:30",
@@ -83,6 +71,12 @@
    "importance": 0.5,
    "asof": "2026-11-25T09:36+05:30",
    "headline": "ICICI Bank rises about 3% as banks rebound at market open"
+  },
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-11-25T12:36+05:30",
+   "headline": "ICICI Bank gains over 3% in banking sector recovery"
   }
  ],
  "YESBANK": [
@@ -251,6 +245,12 @@
    "importance": 1.0,
    "asof": "2026-11-23T10:37+05:30",
    "headline": "TCS leads Indian IT gains despite global AI-driven tech selloff"
+  },
+  {
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-25T12:36+05:30",
+   "headline": "TCS among IT gainers as Nifty IT rises about 2%"
   }
  ],
  "INDUSINDBK": [
@@ -309,6 +309,12 @@
    "importance": 1.0,
    "asof": "2026-11-25T11:36+05:30",
    "headline": "HDFC Bank leads as Bank Nifty climbs to a record high"
+  },
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-11-25T12:36+05:30",
+   "headline": "HDFC Bank up about 3.5% as Bank Nifty rebounds"
   }
  ],
  "CUB": [
