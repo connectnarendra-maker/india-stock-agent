@@ -303,6 +303,12 @@
    "importance": 0.5,
    "asof": "2026-11-25T09:36+05:30",
    "headline": "HDFC Bank leads Sensex gainers in strong opening rally"
+  },
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-11-25T11:36+05:30",
+   "headline": "HDFC Bank leads as Bank Nifty climbs to a record high"
   }
  ],
  "CUB": [
@@ -325,6 +331,22 @@
    "importance": 1.5,
    "asof": "2026-11-25T06:36+05:30",
    "headline": "Tata Steel deal for about 26% of APL Apollo valued near ₹15,511 crore, open offer follows"
+  }
+ ],
+ "JWL": [
+  {
+   "score": 0.7,
+   "importance": 1.5,
+   "asof": "2026-11-25T11:36+05:30",
+   "headline": "Jupiter Wagons hits 20% upper circuit on metro-coach JV with Korea's Woojin"
+  }
+ ],
+ "ZEEL": [
+  {
+   "score": -0.3,
+   "importance": 1.0,
+   "asof": "2026-11-25T11:36+05:30",
+   "headline": "Zee shares drop about 6% on record date for Rs 600-crore buyback"
   }
  ]
 }
