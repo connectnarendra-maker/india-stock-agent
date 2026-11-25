@@ -1,12 +1,6 @@
 {
  "TATASTEEL": [
   {
-   "score": 0.3,
-   "importance": 1.0,
-   "asof": "2026-11-17T17:38+05:30",
-   "headline": "Tata Steel eyes 50 MT India capacity, weighs new Maharashtra plant"
-  },
-  {
    "score": -0.2,
    "importance": 0.5,
    "asof": "2026-11-18T11:38+05:30",
@@ -23,6 +17,18 @@
    "importance": 2.0,
    "asof": "2026-11-23T10:37+05:30",
    "headline": "Tata Steel agrees to buy about $1.67 billion stake in APL Apollo Tubes"
+  },
+  {
+   "score": 0.3,
+   "importance": 1.0,
+   "asof": "2026-11-25T06:36+05:30",
+   "headline": "APL Apollo stake seen strengthening Tata Steel's position against rival steelmakers"
+  },
+  {
+   "score": 0.2,
+   "importance": 1.0,
+   "asof": "2026-11-25T06:36+05:30",
+   "headline": "Analysts stay constructive on Tata Steel while flagging APL Apollo deal risks"
   }
  ],
  "BHARTIARTL": [
@@ -325,6 +331,12 @@
    "importance": 2.0,
    "asof": "2026-11-23T10:37+05:30",
    "headline": "APL Apollo Tubes slides about 14% after Tata Steel stake deal"
+  },
+  {
+   "score": 0.0,
+   "importance": 1.5,
+   "asof": "2026-11-25T06:36+05:30",
+   "headline": "Tata Steel deal for about 26% of APL Apollo valued near ₹15,511 crore, open offer follows"
   }
  ]
 }
