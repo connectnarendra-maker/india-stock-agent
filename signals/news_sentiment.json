@@ -97,12 +97,6 @@
  ],
  "VEDL": [
   {
-   "score": -0.4,
-   "importance": 1.0,
-   "asof": "2026-11-18T13:36+05:30",
-   "headline": "Metal stocks drag as Sensex falls about 600 points to day's low"
-  },
-  {
    "score": -0.3,
    "importance": 0.5,
    "asof": "2026-11-18T14:37+05:30",
@@ -337,6 +331,12 @@
    "importance": 1.5,
    "asof": "2026-11-25T06:36+05:30",
    "headline": "Tata Steel deal for about 26% of APL Apollo valued near ₹15,511 crore, open offer follows"
+  },
+  {
+   "score": 0.2,
+   "importance": 1.0,
+   "asof": "2026-11-25T13:37+05:30",
+   "headline": "Tata Steel says APL Apollo will stay listed after stake deal"
   }
  ],
  "JWL": [
@@ -353,6 +353,14 @@
    "importance": 1.0,
    "asof": "2026-11-25T11:36+05:30",
    "headline": "Zee shares drop about 6% on record date for Rs 600-crore buyback"
+  }
+ ],
+ "GLAND": [
+  {
+   "score": 0.5,
+   "importance": 1.0,
+   "asof": "2026-11-25T13:37+05:30",
+   "headline": "Gland Pharma Visakhapatnam plant gets USFDA inspection report with NAI status"
   }
  ]
 }
