@@ -93,6 +93,12 @@
    "importance": 1.0,
    "asof": "2026-11-24T14:36+05:30",
    "headline": "ICICI Bank slips 3.3% Monday, pulling back from its 52-week high"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-25T09:36+05:30",
+   "headline": "ICICI Bank rises about 3% as banks rebound at market open"
   }
  ],
  "YESBANK": [
@@ -315,6 +321,12 @@
    "importance": 1.0,
    "asof": "2026-11-24T14:36+05:30",
    "headline": "HDFC Bank touches intraday low amid selling pressure on November 23"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-25T09:36+05:30",
+   "headline": "HDFC Bank leads Sensex gainers in strong opening rally"
   }
  ],
  "CUB": [
