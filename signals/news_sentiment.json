@@ -31,14 +31,6 @@
    "headline": "Tata Steel extends slide, ends as weakest Nifty 50 stock Wednesday"
   }
  ],
- "M&M": [
-  {
-   "score": 0.4,
-   "importance": 1.0,
-   "asof": "2026-11-19T17:37+05:30",
-   "headline": "Mahindra & Mahindra gains over 4% as Nifty Auto rallies 4.4%"
-  }
- ],
  "SBIN": [
   {
    "score": -0.3,
@@ -92,12 +84,6 @@
   }
  ],
  "TCS": [
-  {
-   "score": -0.3,
-   "importance": 0.5,
-   "asof": "2026-11-19T17:37+05:30",
-   "headline": "TCS slips about 1.4% as IT stocks fall on Fed rate-hike worries"
-  },
   {
    "score": 0.3,
    "importance": 0.5,
