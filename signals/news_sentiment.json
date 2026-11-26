@@ -75,14 +75,6 @@
    "headline": "Yes Bank the lone Nifty Bank gainer during Monday's bank selloff"
   }
  ],
- "AMBER": [
-  {
-   "score": 0.5,
-   "importance": 1.0,
-   "asof": "2026-11-19T14:37+05:30",
-   "headline": "Amber Enterprises climbs over 6% in consumer durables rally"
-  }
- ],
  "PAYTM": [
   {
    "score": 0.1,
@@ -91,29 +83,7 @@
    "headline": "Paytm plans up to Rs 200 crore investment, 19.1% CardUp stake"
   }
  ],
- "VOLTAS": [
-  {
-   "score": 0.5,
-   "importance": 1.0,
-   "asof": "2026-11-19T14:37+05:30",
-   "headline": "Voltas jumps about 8% as falling copper prices lift AC makers"
-  }
- ],
- "BLUESTARCO": [
-  {
-   "score": 0.5,
-   "importance": 1.0,
-   "asof": "2026-11-19T14:37+05:30",
-   "headline": "Blue Star rises over 6% on lower copper input costs"
-  }
- ],
  "PGEL": [
-  {
-   "score": 0.4,
-   "importance": 0.5,
-   "asof": "2026-11-19T14:37+05:30",
-   "headline": "PG Electroplast gains about 5% as copper falls"
-  },
   {
    "score": 0.4,
    "importance": 1.0,
@@ -145,6 +115,12 @@
    "importance": 0.5,
    "asof": "2026-11-25T12:36+05:30",
    "headline": "TCS among IT gainers as Nifty IT rises about 2%"
+  },
+  {
+   "score": -0.1,
+   "importance": 1.5,
+   "asof": "2026-11-26T15:37+05:30",
+   "headline": "TCS gains as Tata Trusts challenge Chandrasekaran reappointment ahead of board meet"
   }
  ],
  "INDUSINDBK": [
