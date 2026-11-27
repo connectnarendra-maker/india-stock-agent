@@ -119,12 +119,6 @@
  ],
  "INDUSINDBK": [
   {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-20T15:37+05:30",
-   "headline": "IndusInd Bank gaps up about 8% with sharp rise in derivatives open interest"
-  },
-  {
    "score": 0.4,
    "importance": 1.0,
    "asof": "2026-11-20T17:37+05:30",
@@ -132,12 +126,6 @@
   }
  ],
  "HDFCBANK": [
-  {
-   "score": 0.2,
-   "importance": 0.5,
-   "asof": "2026-11-20T15:37+05:30",
-   "headline": "HDFC Bank rises over 3% intraday, trading above key moving averages"
-  },
   {
    "score": -0.3,
    "importance": 1.0,
