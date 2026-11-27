@@ -73,21 +73,7 @@
    "headline": "Yes Bank the lone Nifty Bank gainer during Monday's bank selloff"
   }
  ],
- "PGEL": [
-  {
-   "score": 0.4,
-   "importance": 1.0,
-   "asof": "2026-11-20T10:37+05:30",
-   "headline": "AC makers including PG Electroplast rally as copper hits seven-month low"
-  }
- ],
  "TCS": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-20T11:37+05:30",
-   "headline": "TCS among Nifty gainers as IT stocks rise while indices recover from early slide"
-  },
   {
    "score": 0.4,
    "importance": 1.0,
@@ -111,6 +97,12 @@
    "importance": 1.0,
    "asof": "2026-11-27T06:38+05:30",
    "headline": "TCS among top Nifty gainers as IT stocks surge"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-27T11:37+05:30",
+   "headline": "TCS among top Nifty 50 losers as IT index leads Friday decline"
   }
  ],
  "INDUSINDBK": [
