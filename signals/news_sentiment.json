@@ -1,12 +1,6 @@
 {
  "TATASTEEL": [
   {
-   "score": -0.2,
-   "importance": 0.5,
-   "asof": "2026-11-20T09:37+05:30",
-   "headline": "Tata Steel among top Nifty losers at open as metals slip"
-  },
-  {
    "score": -0.4,
    "importance": 2.0,
    "asof": "2026-11-23T10:37+05:30",
@@ -77,14 +71,6 @@
    "importance": 0.5,
    "asof": "2026-11-23T12:38+05:30",
    "headline": "Yes Bank the lone Nifty Bank gainer during Monday's bank selloff"
-  }
- ],
- "PAYTM": [
-  {
-   "score": 0.1,
-   "importance": 1.0,
-   "asof": "2026-11-20T09:37+05:30",
-   "headline": "Paytm plans up to Rs 200 crore investment, 19.1% CardUp stake"
   }
  ],
  "PGEL": [
