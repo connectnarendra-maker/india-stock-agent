@@ -249,6 +249,12 @@
    "importance": 0.5,
    "asof": "2026-11-27T06:38+05:30",
    "headline": "Shriram Finance the top Nifty loser, falling nearly 3%"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-27T16:37+05:30",
+   "headline": "Shriram Finance finishes as the weakest Nifty 50 stock on Friday"
   }
  ],
  "BHARTIARTL": [
@@ -273,6 +279,22 @@
    "importance": 0.5,
    "asof": "2026-11-27T14:37+05:30",
    "headline": "Vedanta Aluminium Metal gains about 2% in morning trade, no clear trigger"
+  }
+ ],
+ "BEML": [
+  {
+   "score": 0.6,
+   "importance": 1.0,
+   "asof": "2026-11-27T16:37+05:30",
+   "headline": "BEML jumps about 15% as defence index climbs 3.5% on order pipeline"
+  }
+ ],
+ "SOLARINDS": [
+  {
+   "score": 0.4,
+   "importance": 0.5,
+   "asof": "2026-11-27T16:37+05:30",
+   "headline": "Solar Industries gains about 7% in broad defence-stock rally"
   }
  ]
 }
