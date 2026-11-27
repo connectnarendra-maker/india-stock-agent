@@ -278,5 +278,13 @@
    "asof": "2026-11-27T13:37+05:30",
    "headline": "Bharat Electronics gains as defence stocks rally around 3% Friday"
   }
+ ],
+ "VAML": [
+  {
+   "score": 0.1,
+   "importance": 0.5,
+   "asof": "2026-11-27T14:37+05:30",
+   "headline": "Vedanta Aluminium Metal gains about 2% in morning trade, no clear trigger"
+  }
  ]
 }
