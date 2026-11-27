@@ -29,6 +29,12 @@
    "importance": 1.0,
    "asof": "2026-11-25T16:37+05:30",
    "headline": "Tata Steel extends slide, ends as weakest Nifty 50 stock Wednesday"
+  },
+  {
+   "score": 0.3,
+   "importance": 1.0,
+   "asof": "2026-11-27T06:38+05:30",
+   "headline": "Tata Steel up over 2% ahead of Tata Sons board meet"
   }
  ],
  "SBIN": [
@@ -57,6 +63,12 @@
    "importance": 1.0,
    "asof": "2026-11-25T12:36+05:30",
    "headline": "ICICI Bank gains over 3% in banking sector recovery"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-27T06:38+05:30",
+   "headline": "ICICI Bank slips nearly 2% as banking index eases"
   }
  ],
  "YESBANK": [
@@ -107,6 +119,12 @@
    "importance": 1.5,
    "asof": "2026-11-26T15:37+05:30",
    "headline": "TCS gains as Tata Trusts challenge Chandrasekaran reappointment ahead of board meet"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-27T06:38+05:30",
+   "headline": "TCS among top Nifty gainers as IT stocks surge"
   }
  ],
  "INDUSINDBK": [
@@ -171,6 +189,12 @@
    "importance": 1.0,
    "asof": "2026-11-25T12:36+05:30",
    "headline": "HDFC Bank up about 3.5% as Bank Nifty rebounds"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-27T06:38+05:30",
+   "headline": "HDFC Bank biggest positive contributor to Nifty on Thursday"
   }
  ],
  "CUB": [
@@ -231,6 +255,30 @@
    "importance": 0.5,
    "asof": "2026-11-25T14:36+05:30",
    "headline": "Dabur climbs over 5% intraday as FMCG stocks rally broadly"
+  }
+ ],
+ "RELIANCE": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-27T06:38+05:30",
+   "headline": "Reliance shares climb about 1.6% in Thursday session"
+  }
+ ],
+ "SHRIRAMFIN": [
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-27T06:38+05:30",
+   "headline": "Shriram Finance the top Nifty loser, falling nearly 3%"
+  }
+ ],
+ "BHARTIARTL": [
+  {
+   "score": -0.1,
+   "importance": 0.5,
+   "asof": "2026-11-27T06:38+05:30",
+   "headline": "DoT fines Airtel Rs 7.96 lakh over subscriber verification lapse"
   }
  ]
 }
