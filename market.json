@@ -1,0 +1,222 @@
+{
+ "asof_ist": "2026-11-28T00:40+05:30",
+ "price_bar_date": "2026-11-27",
+ "indices": {
+  "NIFTY50": {
+   "level": 25884.5,
+   "chg_pct": 0.0,
+   "ret_1m": 13.78,
+   "ret_1y": -0.65
+  },
+  "NIFTY500": {
+   "level": 24086.5,
+   "chg_pct": 0.0,
+   "ret_1m": 10.82,
+   "ret_1y": 0.75
+  }
+ },
+ "breadth": {
+  "above_200dma_pct": 49.6,
+  "advancers": 0,
+  "decliners": 0
+ },
+ "sectors": [
+  {
+   "sector": "Media Entertainment & Publication",
+   "chg": 0.0,
+   "r1m": 2.73,
+   "score": 0.11,
+   "n": 4.0
+  },
+  {
+   "sector": "Telecommunication",
+   "chg": 0.0,
+   "r1m": -3.09,
+   "score": 0.07,
+   "n": 11.0
+  },
+  {
+   "sector": "Textiles",
+   "chg": 0.0,
+   "r1m": 6.06,
+   "score": 0.05,
+   "n": 5.0
+  },
+  {
+   "sector": "Power",
+   "chg": 0.0,
+   "r1m": 3.3,
+   "score": 0.02,
+   "n": 19.0
+  },
+  {
+   "sector": "Realty",
+   "chg": 0.0,
+   "r1m": 19.23,
+   "score": 0.02,
+   "n": 14.0
+  },
+  {
+   "sector": "Consumer Durables",
+   "chg": 0.0,
+   "r1m": 10.9,
+   "score": 0.01,
+   "n": 16.0
+  },
+  {
+   "sector": "Consumer Services",
+   "chg": 0.0,
+   "r1m": 5.0,
+   "score": 0.01,
+   "n": 23.0
+  },
+  {
+   "sector": "Automobile and Auto Components",
+   "chg": 0.0,
+   "r1m": 9.03,
+   "score": 0.01,
+   "n": 40.0
+  },
+  {
+   "sector": "Metals & Mining",
+   "chg": 0.0,
+   "r1m": 0.33,
+   "score": 0.01,
+   "n": 20.0
+  },
+  {
+   "sector": "Capital Goods",
+   "chg": 0.0,
+   "r1m": -0.46,
+   "score": 0.0,
+   "n": 70.0
+  },
+  {
+   "sector": "Fast Moving Consumer Goods",
+   "chg": 0.0,
+   "r1m": 13.84,
+   "score": 0.0,
+   "n": 28.0
+  },
+  {
+   "sector": "Chemicals",
+   "chg": 0.0,
+   "r1m": 5.51,
+   "score": 0.0,
+   "n": 26.0
+  },
+  {
+   "sector": "Construction Materials",
+   "chg": 0.0,
+   "r1m": 9.59,
+   "score": 0.0,
+   "n": 11.0
+  },
+  {
+   "sector": "Construction",
+   "chg": 0.0,
+   "r1m": 8.58,
+   "score": -0.0,
+   "n": 13.0
+  },
+  {
+   "sector": "Healthcare",
+   "chg": 0.0,
+   "r1m": 9.9,
+   "score": -0.0,
+   "n": 44.0
+  },
+  {
+   "sector": "Oil Gas & Consumable Fuels",
+   "chg": 0.0,
+   "r1m": 2.03,
+   "score": -0.0,
+   "n": 19.0
+  },
+  {
+   "sector": "Financial Services",
+   "chg": 0.0,
+   "r1m": 11.03,
+   "score": -0.0,
+   "n": 98.0
+  },
+  {
+   "sector": "Information Technology",
+   "chg": 0.0,
+   "r1m": 2.39,
+   "score": -0.01,
+   "n": 25.0
+  },
+  {
+   "sector": "Services",
+   "chg": 0.0,
+   "r1m": 2.65,
+   "score": -0.02,
+   "n": 14.0
+  },
+  {
+   "sector": "Watchlist",
+   "chg": 0.0,
+   "r1m": 16.64,
+   "score": -0.08,
+   "n": 3.0
+  },
+  {
+   "sector": "Diversified",
+   "chg": 0.0,
+   "r1m": 11.81,
+   "score": -0.35,
+   "n": 1.0
+  }
+ ],
+ "top_gainers": [
+  "GESHIP",
+  "CUPID",
+  "ACMESOLAR",
+  "MCX",
+  "CHENNPETRO",
+  "CPPLUS",
+  "ANANDRATHI",
+  "NAVINFLUOR",
+  "SOLARINDS",
+  "BAJAJ-AUTO"
+ ],
+ "top_losers": [
+  "GESHIP",
+  "CUPID",
+  "ACMESOLAR",
+  "MCX",
+  "CHENNPETRO",
+  "CPPLUS",
+  "ANANDRATHI",
+  "NAVINFLUOR",
+  "SOLARINDS",
+  "BAJAJ-AUTO"
+ ],
+ "weights": {
+  "momentum": 0.2,
+  "trend": 0.1,
+  "quality": 0.2,
+  "value": 0.15,
+  "growth": 0.15,
+  "low_vol": 0.1,
+  "sentiment": 0.1
+ },
+ "data_meta": {
+  "run_at_ist": "2026-11-28T00:40+05:30",
+  "failures": {},
+  "notes": [],
+  "universe_source": "https://archives.nseindia.com/content/indices/ind_nifty500list.csv",
+  "latest_missing": 2,
+  "refreshed": {
+   "prices_hist": "2026-11-27T14:33:44.760117+05:30",
+   "latest": "2026-11-28T00:40:27.998373+05:30",
+   "fundamentals": "2026-11-27T14:33:44.760117+05:30"
+  },
+  "universe_count": 504,
+  "indices": {
+   "NIFTY50": "^NSEI",
+   "NIFTY500": "^CRSLDX"
+  }
+ }
+}
