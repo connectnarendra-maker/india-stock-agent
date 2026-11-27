@@ -29,6 +29,12 @@
    "importance": 1.0,
    "asof": "2026-11-27T06:38+05:30",
    "headline": "Tata Steel up over 2% ahead of Tata Sons board meet"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-27T13:37+05:30",
+   "headline": "Tata Steel rises about 1.9% as metal stocks stay firm in weak market"
   }
  ],
  "SBIN": [
@@ -103,15 +109,15 @@
    "importance": 0.5,
    "asof": "2026-11-27T11:37+05:30",
    "headline": "TCS among top Nifty 50 losers as IT index leads Friday decline"
+  },
+  {
+   "score": -0.3,
+   "importance": 0.5,
+   "asof": "2026-11-27T13:37+05:30",
+   "headline": "TCS among top Sensex drags as Nifty IT drops over 1% Friday"
   }
  ],
  "INDUSINDBK": [
-  {
-   "score": 0.3,
-   "importance": 0.5,
-   "asof": "2026-11-20T12:37+05:30",
-   "headline": "IndusInd Bank tops Nifty Bank gainers, up about 6% intraday"
-  },
   {
    "score": 0.3,
    "importance": 0.5,
@@ -126,12 +132,6 @@
   }
  ],
  "HDFCBANK": [
-  {
-   "score": 0.15,
-   "importance": 0.5,
-   "asof": "2026-11-20T12:37+05:30",
-   "headline": "HDFC Bank among Nifty Bank gainers in Friday morning trade"
-  },
   {
    "score": 0.2,
    "importance": 0.5,
@@ -173,6 +173,12 @@
    "importance": 0.5,
    "asof": "2026-11-27T06:38+05:30",
    "headline": "HDFC Bank biggest positive contributor to Nifty on Thursday"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-27T13:37+05:30",
+   "headline": "HDFC Bank among major Sensex losers in Friday midday selling"
   }
  ],
  "CUB": [
@@ -241,6 +247,12 @@
    "importance": 0.5,
    "asof": "2026-11-27T06:38+05:30",
    "headline": "Reliance shares climb about 1.6% in Thursday session"
+  },
+  {
+   "score": -0.2,
+   "importance": 0.5,
+   "asof": "2026-11-27T13:37+05:30",
+   "headline": "Reliance Industries slips with broader market at Friday midday"
   }
  ],
  "SHRIRAMFIN": [
@@ -257,6 +269,14 @@
    "importance": 0.5,
    "asof": "2026-11-27T06:38+05:30",
    "headline": "DoT fines Airtel Rs 7.96 lakh over subscriber verification lapse"
+  }
+ ],
+ "BEL": [
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-27T13:37+05:30",
+   "headline": "Bharat Electronics gains as defence stocks rally around 3% Friday"
   }
  ]
 }
