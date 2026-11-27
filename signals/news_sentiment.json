@@ -115,14 +115,12 @@
    "importance": 0.5,
    "asof": "2026-11-27T13:37+05:30",
    "headline": "TCS among top Sensex drags as Nifty IT drops over 1% Friday"
-  }
- ],
- "INDUSINDBK": [
+  },
   {
-   "score": 0.4,
+   "score": -0.3,
    "importance": 1.0,
-   "asof": "2026-11-20T17:37+05:30",
-   "headline": "IndusInd Bank climbs about 8% on heavy volumes, nearing 52-week high"
+   "asof": "2026-11-27T17:38+05:30",
+   "headline": "TCS falls about 2.5% as IT shares lead Friday's market decline"
   }
  ],
  "HDFCBANK": [
@@ -167,14 +165,6 @@
    "importance": 0.5,
    "asof": "2026-11-27T13:37+05:30",
    "headline": "HDFC Bank among major Sensex losers in Friday midday selling"
-  }
- ],
- "CUB": [
-  {
-   "score": 0.4,
-   "importance": 0.5,
-   "asof": "2026-11-20T17:37+05:30",
-   "headline": "City Union Bank touches record high after 7% intraday jump"
   }
  ],
  "APLAPOLLO": [
@@ -255,6 +245,12 @@
    "importance": 0.5,
    "asof": "2026-11-27T16:37+05:30",
    "headline": "Shriram Finance finishes as the weakest Nifty 50 stock on Friday"
+  },
+  {
+   "score": -0.5,
+   "importance": 1.0,
+   "asof": "2026-11-27T17:38+05:30",
+   "headline": "Shriram Finance slides about 4%, biggest Nifty loser, on growth and asset-quality worries"
   }
  ],
  "BHARTIARTL": [
@@ -271,6 +267,12 @@
    "importance": 0.5,
    "asof": "2026-11-27T13:37+05:30",
    "headline": "Bharat Electronics gains as defence stocks rally around 3% Friday"
+  },
+  {
+   "score": 0.3,
+   "importance": 0.5,
+   "asof": "2026-11-27T17:38+05:30",
+   "headline": "Bharat Electronics tops Nifty gainers with a rise of about 1.7%"
   }
  ],
  "VAML": [
@@ -279,6 +281,12 @@
    "importance": 0.5,
    "asof": "2026-11-27T14:37+05:30",
    "headline": "Vedanta Aluminium Metal gains about 2% in morning trade, no clear trigger"
+  },
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-27T17:38+05:30",
+   "headline": "Vedanta Aluminium Metal gains as LME aluminium prices firm"
   }
  ],
  "BEML": [
@@ -295,6 +303,14 @@
    "importance": 0.5,
    "asof": "2026-11-27T16:37+05:30",
    "headline": "Solar Industries gains about 7% in broad defence-stock rally"
+  }
+ ],
+ "VEDL": [
+  {
+   "score": 0.4,
+   "importance": 1.0,
+   "asof": "2026-11-27T17:38+05:30",
+   "headline": "Vedanta group shares climb as copper, aluminium and silver prices rebound"
   }
  ]
 }
